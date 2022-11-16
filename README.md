@@ -1,7 +1,7 @@
-- NOM : 
-- PRÉNOM :
+- NOM : YARDIMLI
+- PRÉNOM :Kubilay
 - URL du site :
-- URL FIGMA :
+- URL FIGMA :https://www.figma.com/file/iq8IfgNATX2qhBexvo6xwB/Maquettes-projet-individuel-kubilay-Yardimli?node-id=568%3A2141&t=hYkDtRUXoFjt6tS3-1
 
 # Structure de départ pour le projet individuel.
 
