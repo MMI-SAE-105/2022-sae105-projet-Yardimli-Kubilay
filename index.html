@@ -6,38 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test menu</title>
     <script defer src="https://unpkg.com/alpinejs"></script>
-    <style>
-      .menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 60vw;
-        background: #ffebd6;
-        display: grid;
-        place-content: center;
-      }
-      .header_menuBtn {
-        position: relative;
-        z-index: 10;
-      }
-      .noscroll,
-      .noscroll body {
-        overflow: hidden;
-      }
-    </style>
+    <link rel="stylesheet" href="src/css/style.css">
   </head>
   <body>
-    <!-- https://emmet.io/ -->
-    <!-- header>h1{Test de menu} -->
     <header>
       <button aria-controle="mainNav"
       @click="menuIsOpen = ! menuIsOpen"
       class="header_menuBtn"
       >
-        menu
       </button>
-      <h1>Test de menu</h1>
+      <h1>PAST LIFE</h1>
       <nav 
         id="mainNav"
         x-show="menuIsOpen"
@@ -46,7 +24,15 @@
         >
         <ul>
           <li><a href="#">Page d’accueil</a></li>
-          <li><a href="#">Les articles</a></li>
+          <p>Les articles</p>
+          <li><a href="#">Sainte-Sophie</a></li>
+          <li><a href="#">Attaque des Titans</a></li>
+          <li><a href="#">Shinzou wo Sasageyo</a></li>
+          <li><a href="#">Interstellar</a></li>
+          <li><a href="#">Exploration Spatial</a></li>
+          <li><a href="#">Réchauffement Climatique</a></li>
+          <li><a href="#">Game of Thrones</a></li>
+          <br>  </br>
           <li><a href="#">D’autres projets</a></li>
           <li><a href="#">À propos  / Me contact</a></li>
           <li><a href="#">En savoir +</a></li>
@@ -57,5 +43,6 @@
     Bienvenue, vous allez découvrir plusieurs articles traitant de différents sujets, allant d’un article traitant un lieu à un article traitant un espoir de notre génération.
 Ces articles sont liés à mes préférences sur les sujets traiter.
   </p>
+  <h2>Articles</h2>
   </body>
 </html>
