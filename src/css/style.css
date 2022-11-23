@@ -1,9 +1,18 @@
-body{background-color: #FAFAFA;}
+body{
+  background-color: #FAFAFA;
+}
 .header {
   background-color: #161029;
+  color: #ffffff;
+}
+.titre {
+  text-align: center;
+  color: #FFFFFF;
+  
 }
 .footer {
-  background-color: #181818
+  background-color: #181818;
+  color: #ffffff;
 }
 .menu {
   position: fixed;
@@ -40,21 +49,41 @@ body{background-color: #FAFAFA;}
 }
 .ayasofiahome {
   width: 90vw;
+  display: block;
+  margin: 0 auto;
+}
+.livrehome {
+  width: 90vw;
+  display: block;
+  margin: 0 auto;
 }
 .musiquehome {
   width: 90vw;
+  display: block;
+  margin: 0 auto;
+}
+.filmhome {
+  width: 90vw;
+  display: block;
+  margin: 0 auto;
 }
 .espoirhome {
   width: 90vw;
+  display: block;
+  margin: 0 auto;
 }
 .Regrethome {
   width: 90vw;
+  display: block;
+  margin: 0 auto;
 }
 .buthome {
   width: 90vw;
+  display: block;
+  margin: 0 auto;
 }
 .logommi {
-  width: 10vw;
+  width: 15vw;
   display: block;
   float: right;
 }
@@ -65,14 +94,20 @@ body{background-color: #FAFAFA;}
   text-align: center;
 }
 .insta {
-  display: block;
-  margin: 0 auto;
+  width: 10vw;
+  display: inline-block;
+  position: relative;
+  left: 25%;
 }
 .twitter {
-  display: block;
-  margin: 0 auto;
+  width: 10vw;
+  display: inline-block;
+  position: relative;
+  left: 33%;
 }
 .linkedin {
-  display: block;
-  margin: 0 auto;
+  width: 10vw;
+  display: inline-block;
+  position: relative;
+  left: 40%;
 }
