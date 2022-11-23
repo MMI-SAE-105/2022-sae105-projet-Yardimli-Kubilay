@@ -1,19 +1,78 @@
 body{background-color: #FAFAFA;}
+.header {
+  background-color: #161029;
+}
+.footer {
+  background-color: #181818
+}
 .menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 217vw;
-        background: #161029;
-        display: grid;
-        place-content: center;
-      }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 217vw;
+  background: #161029;
+  display: grid;
+  place-content: center;
+}
 .header_menuBtn {
-        position: relative;
-        z-index: 10;
-      }
+  position: relative;
+  z-index: 10;
+}
 .noscroll,
 .noscroll body {
-        overflow: hidden;
-      }
+  overflow: hidden;
+}
+.flechehome {
+  display: block;
+  margin: 0 auto;
+  width: 20vw;
+}
+.ligne {
+  display: block;
+  margin: 0 auto;
+  width: 50vw;
+}
+.ligneblanc {
+  display: block;
+  margin: 0 auto;
+  width: 50vw;
+}
+.ayasofiahome {
+  width: 90vw;
+}
+.musiquehome {
+  width: 90vw;
+}
+.espoirhome {
+  width: 90vw;
+}
+.Regrethome {
+  width: 90vw;
+}
+.buthome {
+  width: 90vw;
+}
+.logommi {
+  width: 10vw;
+  display: block;
+  float: right;
+}
+.mentions {
+  text-align: center;
+}
+.contacter {
+  text-align: center;
+}
+.insta {
+  display: block;
+  margin: 0 auto;
+}
+.twitter {
+  display: block;
+  margin: 0 auto;
+}
+.linkedin {
+  display: block;
+  margin: 0 auto;
+}
