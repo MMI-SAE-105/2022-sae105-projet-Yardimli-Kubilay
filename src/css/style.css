@@ -1,39 +1,6 @@
 body{
   background-color: #FAFAFA;
 }
-.header {
-  background-color: #161029;
-  color: #ffffff;
-}
-.titre {
-  text-align: center;
-  color: #FFFFFF;
-}
-.titre2 {
-  text-align: center;
-}
-.footer {
-  background-color: #181818;
-  color: #ffffff;
-}
-.menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 217vw;
-  background: #161029;
-  display: grid;
-  place-content: center;
-}
-.header_menuBtn {
-  position: relative;
-  z-index: 10;
-}
-.noscroll,
-.noscroll body {
-  overflow: hidden;
-}
 .flechehome {
   display: block;
   margin: 0 auto;
@@ -112,4 +79,20 @@ body{
   display: inline-block;
   position: relative;
   left: 40%;
+}
+.flechecourbe {
+  width: 8vw;
+  display: block;
+  float: right;
+  transform: scaleX(-1);
+}
+.Ayasofya2 {
+  width: 90vw;
+  display: block;
+  margin: 0 auto;
+}
+.Ayasofya6 {
+  width: 90vw;
+  display: block;
+  margin: 0 auto;
 }

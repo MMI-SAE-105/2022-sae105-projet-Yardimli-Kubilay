@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test menu</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn"
+      >
+      </button>
+      <h1 class=titre>PAST LIFE</h1>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.650ms
+        class="menu"
+        >
+        <ul>
+          <li><a href="#">Page d’accueil</a></li>
+          <br>
+          <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+          <p>Les articles</p>
+          <li><a href="#">Sainte-Sophie</a></li>
+          <li><a href="#">Attaque des Titans</a></li>
+          <li><a href="#">Shinzou wo Sasageyo</a></li>
+          <li><a href="#">Interstellar</a></li>
+          <li><a href="#">Exploration Spatial</a></li>
+          <li><a href="#">Réchauffement Climatique</a></li>
+          <li><a href="#">Game of Thrones</a></li>
+          <br>
+          <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+          <br>
+          <li><a href="#">D’autres projets</a></li>
+          <br>
+          <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+          <br>
+          <li><a href="#">À propos  / Me contact</a></li>
+          <br>
+          <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+          <br>
+          <li><a href="#">En savoir +</a></li>
+        </ul>
+      </nav>
+    </header>
+<h1>
+    lieu<br>Sainte-Sophie
+</h1>
+<img class="ayasofiahome" src="./public/img/lieu/lieu image 1.webp">
+<br>
+<h2>
+    Sainte-Sophie <br> c’est quoi ?
+</h2>
+<p>
+    Sainte-Sophie est sans aucun doute le monument le plus célèbre d'Istanbul, c’est actuellement une mosquée mais anciennement une basilique chrétienne.
+Le nom de la mosquée vient du grec Hagia Sophia qui signifie « sainte sagesse », mais au fur et à mesure du temps et avec la langue turque aujourd’hui Sainte-Sophie est appelé Ayasofya. C’est un monument important pour les musulmans et les chrétiens.
+</p>
+<br>
+<p>
+    Sainte-Sophie est une ancienne basilique chrétienne fondée à l’époque de Constantinople, plus précisément au 4ème siècle mais reconstruite plusieurs fois à la suite de plusieurs incidents. Celle que nous connaissons aujourd’hui est bien plus grande que celle d’avant, elle a été reconstruite 6ème siècle. Mais à l’époque du sultan Mehmed II (15ème siècle), Sainte-Sophie a été transformée en mosquée.  
+</p>
+<br>
+<p>
+    Sainte-Sophie est un symbole fort de la puissance de Byzance mais représente aussi parfaitement l’art et l’architecture byzantine via sa structure mais aussi ses mosaïques et représente parfaitement l’art et l’architecture ottomane qui l’ont totalement transformé.
+Sainte-Sophie est situé dans le quartier historique d’Istanbul, SultanAhmet, sur la rive européenne d’Istanbul.
+</p>
+<br> <img class="flechecourbe" src="./public/img/logo/120914.png">
+<img class="Ayasofya2" src="./public/img/lieu/lieu image 10.webp">
+<br>
+
+<h2>
+    Son histoire
+</h2>
+
+<p>
+    La construction de Sainte-Sophie a débuté en 532, à la demande de l’empereur Justinien. 
+L’empereur à désigner le physicien Isidore de Milet et le mathématicien Anthemios de Tralles pour la supervision de la construction de la basilique, Sainte-Sophie a été construite sur le site d’un ancien temple grec.
+</p>
+<br>
+
+<p>
+    Les matériaux de Sainte-Sophie ne sont pas ordinaire, car ils ont une origine variée. Les pierres proviennent d’une carrière provenant de Grèce, plus précisément les pierres d’une ancienne de cités grecques. 
+</p>
+<br>
+
+<p>
+    Pour information les piliers du temple d’Artémis (une des merveilles du monde antique) situé actuellement à Éphèse en Turquie (540km d’Istanbul) ont été utilisés pour la construction de la basilique Sainte-Sophie. La basilique a été construite en 5 ans et on estime que plus de 10 000 ouvriers ont participé à sa construction.
+</p>
+<br>
+
+<p>
+    Sainte-Sophie représente le savoir-faire, l’art et l’architecture byzantine et Ottomane.
+Toute l’architecture comme ses mosaïques, sa coupole ou encore ses colonnes sont encore de nos jours une référence sur l’architecture et l’art byzantin.
+L’architecture et le style de Sainte-Sophie à une influence mondiale importante, non seulement dans l'architecture de l'Église orthodoxe orientale, mais aussi dans l'architecture des églises catholiques et de certaines mosquées. 
+</p>
+<br>
+<img class="Ayasofya6" src="./public/img/lieu/lieu image 14.webp">
+<h2>
+    Avis personnel
+</h2>
+<p>
+    Ce lieu ma marqué et important pour moi, car il retrace mes origines, en étant turc il représente un lieu important pour la Turquie et pour son histoire, en la visitant et en apprenant son histoire, cela ma toucher.
+</p>
+
+<footer class="footer">
+    <img class="logommi" src="./public/img/logo/MMI_dut_small_purple.webp">
+    <br>
+    <h4> Mentions Légales</h4>
+    <p class="mentions">Projet réalisé dans le cadre d’un exercice <br> pédagogique au département MMi de Montbéliard
+    </p>
+    <h4> Me contacter</h4>
+    <p class="contacter">Kubilay YARDIMLI C2<br>kubilay.yardimli@gmail.com
+    </p>
+    <img class="insta" src="./public/img/logo/instagram (2).svg"> <img class="twitter" src="./public/img/logo/twitter (1).svg"> <img class="linkedin" src="./public/img/logo/linkedin (1).svg"> 
+  
+    <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+  <br>
+  </footer>
+</body>
+</html>
