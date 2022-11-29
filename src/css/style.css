@@ -22,7 +22,7 @@ body{
   margin: 0 auto;
 }
 .livrehome {
-  width: 90vw;
+  width: 50vw;
   display: block;
   margin: 0 auto;
 }
@@ -68,24 +68,25 @@ body{
   margin: 0 auto;
 }
 img {
-    display: flex;
+  display: flex;
     width: 100%;
   }
 .carrousel_parent-ecrans {
-    display: flex;
-    width: 100%;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-    scroll-snap-align: start;
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  
   }
 
 .carrousel_ecran {
-    flex: none;
-    width: 100%;
+  flex: none;
+  width: 100%;
+  scroll-snap-align: start;
   }
 .carrousel_ecran figure {
-    margin: 0%; 
+  margin: 0%; 
   }
   
   
