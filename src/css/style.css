@@ -1,6 +1,9 @@
 body{
   background-color: #FAFAFA;
 }
+.titre3 {
+  text-align: center;
+}
 .flechehome {
   display: block;
   margin: 0 auto;
@@ -90,7 +93,7 @@ img {
   }
   .youtube_musique {
     width: 400px;
-    height: 300px;
+    height: 315px;
     display: block;
     margin: 0 auto;
   }
