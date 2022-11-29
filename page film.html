@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Past Life</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
+        >
+        </button>
+        <h1 class=titre>PAST LIFE</h1>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="index.html">Page d’accueil</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <p>Les articles</p>
+            <li><a href="page lieu.html">Sainte-Sophie</a></li>
+            <li><a href="page livre.html">Attaque des Titans</a></li>
+            <li><a href="page musique.html">Shinzou wo Sasageyo</a></li>
+            <li><a href="page film.html">Interstellar</a></li>
+            <li><a href="page espoir.html">Exploration Spatial</a></li>
+            <li><a href="page regret.html">Réchauffement Climatique</a></li>
+            <li><a href="page bu.html">Game of Thrones</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page d’autres projets.html">D’autres projets</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page contact.html">À propos  / Me contact</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page en savoir+.html">En savoir +</a></li>
+          </ul>
+        </nav>
+      </header>
+<h1>
+    Film<br>interstellar
+</h1>
+<img class="filmhome" src="./public/img/film/film image 4.webp">
+<br>
+<h2>
+    Interstallar <br> c’est quoi ?
+</h2>
+<p>
+    Le film Interstellar est sorti le 5 novembre 2014. Réaliser par Christopher Nolan, c’est un film de science-fiction qui se passe dans l’espace. Il a fait 701,7 millions de dollars aux box-office avec un budget de 165 millions de dollars, il a été nommé aux oscars plusieurs fois.
+</p>
+
+
+<iframe class="youtube_film" src="https://www.youtube.com/embed/VaOijhK3CRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+<h2>
+    Le Synopsis
+</h2>
+
+<p>
+    Dans un futur proche qui se passe en 2067, la Terre est devenue invivable pour l’homme car l’humanité passe par une grave crise alimentaire. La terre est devenue trop aride et incultivable, et les fréquentes tempête de sable n’arrange pas les choses. 
+</p>
+
+<p>
+    On va suivre l’histoire de Cooper un ancien pilote de la NASA qui s’est reconverti en agriculteur et vit dans la ferme familiale avec son fils et sa fille. Lorsqu’un phénomène qu’il ne peut pas expliquer lui permet d’avoir des coordonnées d’une division secrète de la NASA. Il est alors embarqué dans une expédition pour sauver l'humanité à travers l’espace.
+</p>
+<br>
+
+<img class="flechecourbe" src="./public/img/logo/120914.png">
+
+<div class="carrousel" x-data="{}">
+    <div class="carrousel_parent-ecrans">
+        <div id="ecran-1" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/film/film image 17 copie.webp" alt="image ecran 1">
+                <figcaption>Ecran 1</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-2" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/film/film image 18 copie.webp" alt="image ecran 2">
+                <figcaption>Ecran 2</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-3" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/film/film image 19 copie.webp" alt="image ecran 3">
+                <figcaption>Ecran 3</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-4" class="carrousel_ecran">
+            <figure>
+                <img class="livrehome" src="../public/img/film/film image 20 copie.webp" alt="image ecran 4">
+                <figcaption>Ecran 4</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<h2>
+    Présentation du film
+</h2>
+
+<p>
+    Interstellar est un film de science-fiction avec des rebondissements et des retournements de situation qui nous fait voyager dans tout l’espace, avec comme acteur connu qui joue nous avons Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine, Casey Affleck et Matt Damon.
+</p>
+<br>
+
+<p>
+    Interstellar a été un succès mondial, et pour récompenser ce succès, il a eu plusieurs distinctions et nominations dans le monde entier, aux oscars il a été nommé pour Les meilleurs décors, meilleurs montages de son, meilleurs mixages de son, meilleures musiques de film et meilleur effets visuels et ils ont gagné l’oscar pour les meilleurs effets visuels. Mais bien sûr le film a eu plusieurs récompenses en dehors des oscars.
+</p>
+<br>
+
+<img src="./public/img/film/film image 16.webp">
+<h2>
+    Avis personnel
+</h2>
+<p>
+    Ce film ma beaucoup marqué car c’est l’un des premiers films sur l’espace que j’ai regardée.  Interstellar m’a fait aimer l’univers de Christopher Nolan, est surtout il m’a fait aimer l’espace. Les acteurs mon beaucoup impressionner et surtout l’acteur principal Matthew McConaughey, après avoir visionné le film, j’ai par la suite regardé beaucoup de ses films.
+</p>
+
+<footer class="footer">
+    <img class="logommi" src="./public/img/logo/MMI_dut_small_purple.webp">
+    <br>
+    <h4> Mentions Légales</h4>
+    <p class="mentions">Projet réalisé dans le cadre d’un exercice <br> pédagogique au département MMi de Montbéliard
+    </p>
+    <h4> Me contacter</h4>
+    <p class="contacter">Kubilay YARDIMLI C2<br>kubilay.yardimli@gmail.com
+    </p>
+    <img class="insta" src="./public/img/logo/instagram (2).svg"> <img class="twitter" src="./public/img/logo/twitter (1).svg"> <img class="linkedin" src="./public/img/logo/linkedin (1).svg"> 
+  
+    <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+  <br>
+  </footer>
+</body>
+</html>

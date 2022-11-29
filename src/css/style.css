@@ -35,7 +35,7 @@ body{
   margin: 0 auto;
 }
 .filmhome {
-  width: 90vw;
+  width: 50vw;
   display: block;
   margin: 0 auto;
 }
@@ -92,6 +92,12 @@ img {
   margin: 0%; 
   }
   .youtube_musique {
+    width: 400px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+  }
+  .youtube_film {
     width: 400px;
     height: 315px;
     display: block;
