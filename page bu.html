@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Past Life</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
+        >
+        </button>
+        <h1 class=titre>PAST LIFE</h1>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="index.html">Page d’accueil</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <p>Les articles</p>
+            <li><a href="page lieu.html">Sainte-Sophie</a></li>
+            <li><a href="page livre.html">Attaque des Titans</a></li>
+            <li><a href="page musique.html">Shinzou wo Sasageyo</a></li>
+            <li><a href="page film.html">Interstellar</a></li>
+            <li><a href="page espoir.html">Exploration Spatial</a></li>
+            <li><a href="page regret.html">Réchauffement Climatique</a></li>
+            <li><a href="page bu.html">Game of Thrones</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page d’autres projets.html">D’autres projets</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page contact.html">À propos  / Me contact</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page en savoir+.html">En savoir +</a></li>
+          </ul>
+        </nav>
+      </header>
+<h1>
+    Objet Emprunté de la bu Game of thrones <br>Game of throne
+</h1>
+<img class="buhome" src="./public/img/bu/bu image 6.webp">
+<br>
+<h2>
+    Game of Thrones <br> c’est quoi ?
+</h2>
+<p>
+    La série Game of Thrones est sortie entre le 17 avril 2011 et le 19 mai 2019. Celle-ci est une adaptation des romans portant le nom du Trône de fer, c’est une série de romans de fantaisie créé par George R. R. Martin depuis 1996. La série est produite par Mark Huffam et Frank Doelger, son genre est drame et fantaisie. La série se passe dans un temps médiévale.
+</p>
+<br>
+<img src="./public/img/bu/bu image 25 copie.webp">
+<h2>
+    Le Synopsis
+</h2>
+<br>
+
+<p>
+    L'histoire se déroule sur les continents de Westeros et d'Essos, où diverses grandes familles se battent pour conquérir le trône de fer et régner sur les royaumes des sept couronnes. 
+    <br>L’histoire commence quand le roi Robert Baratheon celui qui dirige le royaume des sept couronnes, se rend au nord du royaume pour rencontrer son vieil ami Eddard Stark et prendre la place de la main du roi car l’ancienne viens juste de mourir. Seigneur du Nord de Winterfell et de la maison Stark, Eddard ne quitte jamais ses terres. Cependant, il accepte à contrecœur de partir pour la capitale, Portreal, avec ses deux filles, Sansa et Arya.
+</p>
+<br>
+<p>
+    Nous allons suivre aussi l’histoire de Jon Snow, le bâtard d’Eddard Stark, qui s'apprête à rejoindre la célèbre Garde de Nuit qui est dans le nord-ouest de Westeros.
+    <br>Depuis plus de 8 000 ans, cette garde vit de l'autre côté du Mur, un gigantesque édifice de glace, de pierre et de magie, qui forme la frontière entre les terres du nord et les Sept Couronnes et défend  le royaume de Westeros contre la menace des Marcheurs blancs,  mais celle-ci se rapproche plus d’une histoire que de la réalité .
+</p>
+<br>
+<p>
+    Le roi Robert Baratheon s'est rebellé contre celui qu’on surnommait le roi fou Aerith II Targaryen, ce qui a mené ses enfant à s’exiler sur le continent d’Essos. Nous allons suivre  l’histoire des enfants du roi fou, de l'autre côté du détroit au sud-est, sur le continent d'Essos, Viserys Targaryen, l'héritier légitime des Sept Royaumes en exil, se prépare à reprendre le royaume avec ça soeur Daenerys et ils vont essayer de regagner le trône de fer avec l'aide de trois dragons.
+</p>
+
+<br> <img class="flechecourbe" src="./public/img/logo/120914.png">
+<div class="carrousel" x-data="{}">
+    <div class="carrousel_parent-ecrans">
+        <div id="ecran-1" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/bu/bu image 10.webp" alt="image ecran 1">
+                <figcaption>Ecran 1</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-2" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/bu/bu image 11.webp" alt="image ecran 2">
+                <figcaption>Ecran 2</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-3" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/bu/bu image 12.webp" alt="image ecran 3">
+                <figcaption>Ecran 3</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-4" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/bu/bu image 13.webp" alt="image ecran 4">
+                <figcaption>Ecran 4</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+<h2>
+    Présentation de la série
+</h2>
+<br>
+
+<p>
+    Game of Thrones est une série qui a durée 8 ans et se fus un succès mondial. Avec 8 saisons et 73 épisodes . En juin 2014, la chaîne américaine HBO a annoncé que Game of Thrones était officiellement devenue la série la plus populaire de leurs histoire, avec une moyenne de 18,4 millions de téléspectateurs.  Pour récompenser ce succès, il a eu plusieurs distinctions et nominations dans le monde entier
+</p>
+<br>
+
+<p>
+    Comme beaucoup de séries à succès, Game of Thrones a vu de nombreuse adaptation et d’objet dérivés.
+    Pour parler d’adaptation George R. R. Martin, annonce en mai 2017, que HBO avait été chargé de développer quatre concepts pour créer une ou plusieurs nouvelles séries dans le même univers.
+</p>
+<br>
+
+<p>
+    Pour parler d’objet dérivés, nous avons eu les sorties DVD et disques Blu-ray, jeux vidéo, jeu de cartes, jeu de rôle, jeux de société ou encore des peluches, figurines, portes clés etc... Il y a plein de sorte d’objet dérivé.
+</p>
+
+<img src="./public/img/bu/bu image 26.webp">
+<h2>
+    Avis personnel
+</h2>
+<p>
+    Cette série est l’une de mes première série médiéval fantaisie, et cela m’a beaucoup plu. Ça m’a ouvert à un univers que je ne connaissais pas, et depuis je m’intéresse au série médiéval et fantaisie ou les 2 réunies cela dépend. Ce que j’apprécie ce sont ces manigances politiques entourée d’intrigue avec pleins de rebondissements et des retournements de situation, avec des personnages attachants, on découvre plusieurs points de vue et grâce à cela nous avons plusieurs avis contradictoires. C’est pourquoi cette série ma beaucoup marqué.
+</p>
+
+<footer class="footer">
+    <img class="logommi" src="./public/img/logo/MMI_dut_small_purple.webp">
+    <br>
+    <h4> Mentions Légales</h4>
+    <p class="mentions">Projet réalisé dans le cadre d’un exercice <br> pédagogique au département MMi de Montbéliard
+    </p>
+    <h4> Me contacter</h4>
+    <p class="contacter">Kubilay YARDIMLI C2<br>kubilay.yardimli@gmail.com
+    </p>
+    <img class="insta" src="./public/img/logo/instagram (2).svg"> <img class="twitter" src="./public/img/logo/twitter (1).svg"> <img class="linkedin" src="./public/img/logo/linkedin (1).svg"> 
+  
+    <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+  <br>
+  </footer>
+</body>
+</html>
