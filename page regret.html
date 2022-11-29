@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Past Life</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
+        >
+        </button>
+        <h1 class=titre>PAST LIFE</h1>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="index.html">Page d’accueil</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <p>Les articles</p>
+            <li><a href="page lieu.html">Sainte-Sophie</a></li>
+            <li><a href="page livre.html">Attaque des Titans</a></li>
+            <li><a href="page musique.html">Shinzou wo Sasageyo</a></li>
+            <li><a href="page film.html">Interstellar</a></li>
+            <li><a href="page espoir.html">Exploration Spatial</a></li>
+            <li><a href="page regret.html">Réchauffement Climatique</a></li>
+            <li><a href="page bu.html">Game of Thrones</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page d’autres projets.html">D’autres projets</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page contact.html">À propos  / Me contact</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page en savoir+.html">En savoir +</a></li>
+          </ul>
+        </nav>
+      </header>
+<h1>
+    Crainte / Regret de ma génération<br>réchauffement climatique
+</h1>
+<img class="Regrethome" src="./public/img/regret/regret image 5.webp">
+<br>
+<h2>
+    Le réchauffement climatique <br> c’est quoi ?
+</h2>
+<p>
+    Le changement climatique fait référence aux variations à long terme des températures et des conditions météorologiques. Il pourrait s'agir de variations naturelles causées par le cycle solaire, par exemple. Cependant, depuis le 19ème siècle, l'activité humaine a été un contributeur majeur au changement climatique, principalement à travers la combustion de combustibles fossiles tels que le charbon, le pétrole et le gaz. La combustion de combustibles fossiles libère des gaz à effet de serre, qui agissent comme une couverture autour de la terre, emprisonnant la chaleur du soleil et provoquant une augmentation des températures. 
+</p>
+<br>
+<p>
+    Les émissions de dioxyde de carbone et de méthane, en particulier, sont responsables du changement climatique. Par exemple, il provient de l'utilisation de l'essence pour alimenter une voiture ou de l'utilisation du charbon pour chauffer un bâtiment. La déforestation des terres et des forêts peut également libérer du dioxyde de carbone. Les décharges sont une source majeure d'émissions de méthane. Les principaux émetteurs comprennent l'énergie, l'industrie, les transports, la construction, l'agriculture et d'autres secteurs d'utilisation des terres.
+</p>
+<br>
+<img src="./public/img/regret/regret image 25 copie.webp">
+<p>
+    Les concentrations de gaz à effet de serre ont atteint leur plus haut niveau depuis deux millions d'années et les émissions continuent d'augmenter. En conséquence, la température de surface mondiale actuelle est supérieure de 1,1 degré à celle de 1800. Cette dernière décennie  a été la plus chaude jamais enregistrée. Selon les plans climatiques nationaux actuels, le réchauffement climatique devrait atteindre 3,2 degré d'ici la fin de ce siècle.
+</p>
+<br>
+<p>
+    De nombreuses personnes pensent que le changement climatique entraînera principalement une hausse des températures. Mais la hausse des températures n'est que le début de l'histoire. La terre est un système dans lequel tout est connecté, donc des changements n'importe où peuvent affecter n'importe où. Les impacts actuels du changement climatique comprennent les sécheresses sévères, la pénurie d'eau, les incendies graves, l'élévation du niveau de la mer, les inondations, la fonte des calottes polaires, les tempêtes catastrophiques et la perte de biodiversité. 
+</p>
+
+<br> <img class="flechecourbe" src="./public/img/logo/120914.png">
+<div class="carrousel" x-data="{}">
+    <div class="carrousel_parent-ecrans">
+        <div id="ecran-1" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/regret/regret image 10.webp" alt="image ecran 1">
+                <figcaption>Ecran 1</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-2" class="carrousel_ecran">
+            <figure>
+                <img src="/public/img/regret/regret image 11.webp" alt="image ecran 2">
+                <figcaption>Ecran 2</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-3" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/regret/regret image 12.webp" alt="image ecran 3">
+                <figcaption>Ecran 3</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-4" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/regret/regret image 13 copie.webp" alt="image ecran 4">
+                <figcaption>Ecran 4</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+<p>
+    Les gens vivent le changement climatique de plusieurs façons. Le changement climatique peut affecter notre santé, notre capacité de production alimentaire, notre lieu de vie, notre sécurité et nos emplois.
+</p>
+<br>
+
+<p>
+    Certains d'entre nous, y compris ceux des petites pays  et d'autres pays en voie de développement, sont déjà vulnérables à leurs effets. Une sécheresse continue et prolongée expose la population au risque de famine. De nombreuses solutions au changement climatique peuvent améliorer nos vies, protéger l'environnement et apporter des avantages économiques. 
+</p>
+<br>
+
+<p>
+    Il existe également des cadres et des accords internationaux pour façonner les progrès, tels que les objectifs de développement durable, la Convention-cadre des Nations Unies sur les changements climatiques et l'Accord de Paris. Les trois principales catégories d'action sont la réduction des émissions, l'adaptation aux impacts du changement climatique et le financement de l'adaptation nécessaire.
+</p>
+
+<img src="./public/img/regret/regret image 26 copie.webp">
+<h2>
+    Avis personnel
+</h2>
+<p>
+    Le réchauffement climatique est très important pour moi, car mes parents mon appris depuis tout petit à faire attention au réchauffement climatique avec des petits gestes au quotidien. Ces petits gestes peuvent sembler inutiles mais enfaite non, si tout le monde faisaient des gestes au quotidien pour le réchauffement climatique nous avancerions d’un grand pas. 
+</p>
+
+<footer class="footer">
+    <img class="logommi" src="./public/img/logo/MMI_dut_small_purple.webp">
+    <br>
+    <h4> Mentions Légales</h4>
+    <p class="mentions">Projet réalisé dans le cadre d’un exercice <br> pédagogique au département MMi de Montbéliard
+    </p>
+    <h4> Me contacter</h4>
+    <p class="contacter">Kubilay YARDIMLI C2<br>kubilay.yardimli@gmail.com
+    </p>
+    <img class="insta" src="./public/img/logo/instagram (2).svg"> <img class="twitter" src="./public/img/logo/twitter (1).svg"> <img class="linkedin" src="./public/img/logo/linkedin (1).svg"> 
+  
+    <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+  <br>
+  </footer>
+</body>
+</html>
