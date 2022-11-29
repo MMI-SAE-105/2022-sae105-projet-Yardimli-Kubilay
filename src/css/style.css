@@ -51,35 +51,6 @@ body{
   display: block;
   margin: 0 auto;
 }
-.logommi {
-  width: 15vw;
-  display: block;
-  float: right;
-}
-.mentions {
-  text-align: center;
-}
-.contacter {
-  text-align: center;
-}
-.insta {
-  width: 10vw;
-  display: inline-block;
-  position: relative;
-  left: 25%;
-}
-.twitter {
-  width: 10vw;
-  display: inline-block;
-  position: relative;
-  left: 33%;
-}
-.linkedin {
-  width: 10vw;
-  display: inline-block;
-  position: relative;
-  left: 40%;
-}
 .flechecourbe {
   width: 8vw;
   display: block;
@@ -96,3 +67,25 @@ body{
   display: block;
   margin: 0 auto;
 }
+img {
+    display: flex;
+    width: 100%;
+  }
+.carrousel_parent-ecrans {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
+  }
+
+.carrousel_ecran {
+    flex: none;
+    width: 100%;
+  }
+.carrousel_ecran figure {
+    margin: 0%; 
+  }
+  
+  
