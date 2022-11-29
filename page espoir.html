@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Past Life</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
+        >
+        </button>
+        <h1 class=titre>PAST LIFE</h1>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="index.html">Page d’accueil</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <p>Les articles</p>
+            <li><a href="page lieu.html">Sainte-Sophie</a></li>
+            <li><a href="page livre.html">Attaque des Titans</a></li>
+            <li><a href="page musique.html">Shinzou wo Sasageyo</a></li>
+            <li><a href="page film.html">Interstellar</a></li>
+            <li><a href="page espoir.html">Exploration Spatial</a></li>
+            <li><a href="page regret.html">Réchauffement Climatique</a></li>
+            <li><a href="page bu.html">Game of Thrones</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page d’autres projets.html">D’autres projets</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page contact.html">À propos  / Me contact</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page en savoir+.html">En savoir +</a></li>
+          </ul>
+        </nav>
+      </header>
+<h1>
+    Espoir de ma génération<br>exploration spatiale
+</h1>
+<img class="espoirhome" src="./public/img/espoir/espoir image 7.webp">
+<br>
+<h2>
+    L’exploration spatiale <br> c’est quoi ?
+</h2>
+<p>
+    L’espace a toujours attirer beaucoup d’attention avec ces représentations dans les films, les jeux vidéos, les livres, grâce à ces représentations nous avons rêvé de faire des explorations spatiales ou encore rêvé d’y vivre. 
+</p>
+<br>
+<p>
+    L'idée d'envoyer des objets et des personnes dans l'espace a été fait des années avant que cela ne devienne physiquement et matériellement possible car ça relevait de l’imagination de pouvoir aller au-delà de notre planète et cela a été fait par des écrivains de science-fiction. 
+</p>
+<br>
+<img src="./public/img/espoir/espoir image 25.webp">
+<p>
+    Vers La fin du 20ème siècle, le rêve d’aller dans l’espace n'est plus un rêve, mais devenu une réalité, grâce à la croissance de l'amélioration des matériaux pour la création des fusés et des moyens de propulsion, ce qui a permis de faire des missions dans l'espace. 
+</p>
+<br>
+<p>
+    L'exploration spatiale comprend toutes les actions effectuées dans l'espace et consiste en l'exploration physique de l'espace. La colonisation de l'espace pourrait apparaitre comme un résultat à très long terme de ces explorations. L'exploration spatiale poursuit des objectifs principalement scientifiques mais aussi économiques ou militaires. 
+</p>
+<br>
+<p>
+    L'exploration scientifique consiste à étudier le système terrestre à savoir l’étude du climat, de l’atmosphère, des océans etc... À étudier le système solaire et l’astronomie à savoir les planètes, les étoiles etc...
+    <br>Du coté de l’économie ça serai notamment dans les domaines des télécommunications, et de l'imagerie etc... 
+    <br>Du coté militaire, l'activité militaire est interdite dans l’espace mais elle est utilisée autrement comme la reconnaissance radar et la vision sur le terrain via les satellites, alerter en avance de certain danger et l'interception  des communications
+
+</p>
+<br> <img class="flechecourbe" src="./public/img/logo/120914.png">
+
+<div class="carrousel" x-data="{}">
+    <div class="carrousel_parent-ecrans">
+        <div id="ecran-1" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/espoir/espoir image 10.webp" alt="image ecran 1">
+                <figcaption>Ecran 1</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-2" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/espoir/espoir image 11.webp alt="image ecran 2">
+                <figcaption>Ecran 2</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-3" class="carrousel_ecran">
+            <figure>
+                <img src="./public/img/espoir/espoir image 12.webp" alt="image ecran 3">
+                <figcaption>Ecran 3</figcaption>
+            </figure>
+        </div>
+        <div id="ecran-4" class="carrousel_ecran">
+            <figure>
+                <img src="../public/img/espoir/espoir image 13.webp" alt="image ecran 4">
+                <figcaption>Ecran 4</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+
+<br>
+
+<h2>
+    Son histoire
+</h2>
+
+<p>
+    Le premier vol spatial de l'histoire est un vol spatiale orbital qui est lancé par l’Union soviétique, c’est le satellite soviétique Spoutnik 1 qui a été lancé le 4 octobre 1957, c’est le premier objet satellisé envoyé dans l’espace.
+</p>
+<br>
+
+<p>
+    Par la suite le 3 novembre 1957, nous avons le premier être vivant à être partie dans l’espace ou plus précisément le premier animal vivant à être partie dans l’espace, c’est la chienne russe Laïka, mais malheureusement elle meurt au bout de quelques heures à bord du Spoutnik 2 et le premier être vivant à décéder dans l'espace mais elle aura réalisé la première orbite dans l'espace.
+</p>
+<br>
+
+<p>
+    Le premier vol spatial de l'histoire, où nous avons un Humain à l’intérieur est lancé par l'Union soviétique le 12 avril 1961, ça sera avec le soviétique Youri Gagarine pour un vol orbital lors de la mission Vostok 1.
+</p>
+<br>
+
+<p>
+    Le premier vol spatial le plus éloigné de la Terre lancé par États-Unis le 21 juillet 1969 est la mission Apollo 11, effectués par Neil Armstrong et Buzz Aldrin, et lors de cette mission, ça sera les premiers pas de l’homme sur la Lune.
+</p>
+<br>
+
+<p>
+    Ce sont les 4 événement les plus important à retenir lorsqu’on parle d’exploration spatiale car nous avons le premier objet, le premier être vivant, le premier humain et les premiers humains à avoir fait les premiers exploits de l’exploration spatiale.
+
+</p>
+<img src="./public/img/espoir/espoir image 26.webp">
+<h2>
+    Avis personnel
+</h2>
+<p>
+    L’exploration spatiale ma toujours attirer surtout par les films et les jeux vidéos. J’ai toujours trouvé incroyable que peut être un jour nous ferons la même chose que les scénarios des films et des jeux vidéos. Explorer l’univers pour trouver toute sorte de chose et même trouver de la vie en dehors de notre planète, c’est la chose les plus incroyable sur l’exploration spatiale.
+</p>
+
+<footer class="footer">
+    <img class="logommi" src="./public/img/logo/MMI_dut_small_purple.webp">
+    <br>
+    <h4> Mentions Légales</h4>
+    <p class="mentions">Projet réalisé dans le cadre d’un exercice <br> pédagogique au département MMi de Montbéliard
+    </p>
+    <h4> Me contacter</h4>
+    <p class="contacter">Kubilay YARDIMLI C2<br>kubilay.yardimli@gmail.com
+    </p>
+    <img class="insta" src="./public/img/logo/instagram (2).svg"> <img class="twitter" src="./public/img/logo/twitter (1).svg"> <img class="linkedin" src="./public/img/logo/linkedin (1).svg"> 
+  
+    <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+  <br>
+  </footer>
+</body>
+</html>
