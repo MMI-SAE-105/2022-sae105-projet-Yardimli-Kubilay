@@ -106,12 +106,19 @@ img {
 .presentation {
   margin: auto;
   display: block;
-  width: 370px;
-  height: 160px;
+  width: 350px;
+  height: 175px;
   left: 24px;
   top: 250px;
   background: #F0B27A;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 17px;
+  gap: 10px;
+  font-size: 17px;
+
 }
 .logo_contact {
   width: 10vw;
@@ -133,11 +140,11 @@ img {
   font-size: 18px;
 }
 .rectangle_contacte {
+  display: block;
   margin: auto;
   background: #FAFAFA;
   border: 1px solid #F0B27A;
   box-shadow: inset 0px -16px 32px rgba(33, 34, 28, 0.05);
   border-radius: 4px;
   width: 313px;
-  display: block;
 }
