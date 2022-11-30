@@ -168,3 +168,17 @@ img {
   text-align: center;
   font-size: 24px;
 }
+.flechesavoir {
+  width: 10vw;
+  display: block;
+  margin: auto;
+}
+.lignesavoir {
+  position: absolute;
+  width: 70px;
+  height: 0px;
+  left: 210px;
+  top: 700px;
+  border: 3px solid #000000;
+  transform: rotate(180deg);
+}

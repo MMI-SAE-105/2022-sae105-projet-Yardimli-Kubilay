@@ -13,7 +13,13 @@ a{
 .titre {
     text-align: center;
     color: #FFFFFF;
+    font-family: 'OPTIBodoni-Antiqua';
+    font-style: normal;
+    font-weight: 400;
     font-size: 48px;
+    line-height: 65px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #F0B27A
   }
 .menu {
     position: fixed;
