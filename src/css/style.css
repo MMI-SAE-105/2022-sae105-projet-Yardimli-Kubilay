@@ -91,24 +91,53 @@ img {
 .carrousel_ecran figure {
   margin: 0%; 
   }
-  .youtube_musique {
+.youtube_musique {
     width: 400px;
     height: 315px;
     display: block;
     margin: 0 auto;
   }
-  .youtube_film {
+.youtube_film {
     width: 400px;
     height: 315px;
     display: block;
     margin: 0 auto;
   }
-.presentaion {
+.presentation {
+  margin: auto;
+  display: block;
+  width: 370px;
+  height: 160px;
+  left: 24px;
+  top: 250px;
+  background: #F0B27A;
   text-align: center;
-  background-color: #F0B27A;
 }
 .logo_contact {
-  width: 15vw;
+  width: 10vw;
   display: block;
   float: right;
+  margin: 1%;
+}
+.bouton_contacte_envoyer {
+  background: #161029;
+  border: 1px solid #F0B27A;
+  color: #FFFFFF;
+  margin: 1%;
+}
+.formulaire {
+  border: 2px solid #F0B27A;
+}
+.texte_contacte {
+  margin: 2%;
+  font-size: 18px;
+}
+.rectangle_contacte {
+  margin: auto;
+  background: #FAFAFA;
+  border: 1px solid #F0B27A;
+  box-shadow: inset 0px -16px 32px rgba(33, 34, 28, 0.05);
+  border-radius: 4px;
+  width: 313px;
+  display: block;
 }

@@ -13,6 +13,7 @@ a{
 .titre {
     text-align: center;
     color: #FFFFFF;
+    font-size: 48px;
   }
 .menu {
     position: fixed;
@@ -29,10 +30,10 @@ a{
     position: relative;
     z-index: 10;
     display: block;
-    height: 2em;
-    width: 2em;
-    left: 360px;
-    top: 10px;
+    height: 10vw;
+    width: 10vw;
+    left: 350px;
+    top: 20px;
 
   }
 .noscroll,
