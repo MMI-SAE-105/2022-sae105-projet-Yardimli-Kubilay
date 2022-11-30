@@ -103,3 +103,12 @@ img {
     display: block;
     margin: 0 auto;
   }
+.presentaion {
+  text-align: center;
+  background-color: #F0B27A;
+}
+.logo_contact {
+  width: 15vw;
+  display: block;
+  float: right;
+}

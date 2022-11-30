@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Past Life</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
+        >
+        </button>
+        <h1 class=titre>PAST LIFE</h1>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="index.html">Page d’accueil</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <p>Les articles</p>
+            <li><a href="page lieu.html">Sainte-Sophie</a></li>
+            <li><a href="page livre.html">Attaque des Titans</a></li>
+            <li><a href="page musique.html">Shinzou wo Sasageyo</a></li>
+            <li><a href="page film.html">Interstellar</a></li>
+            <li><a href="page espoir.html">Exploration Spatial</a></li>
+            <li><a href="page regret.html">Réchauffement Climatique</a></li>
+            <li><a href="page bu.html">Game of Thrones</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page d’autres projets.html">D’autres projets</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page contact.html">À propos  / Me contact</a></li>
+            <br>
+            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+            <br>
+            <li><a href="page en savoir+.html">En savoir +</a></li>
+          </ul>
+        </nav>
+      </header>
+<h1>
+    À propos de moi
+</h1>
+<br>
+
+<p class="presentation">
+    Je me présente Kubilay Yardimli en 1ère année de MMI (Métiers du Multimédia et d’Internet) à Montbéliard.
+
+Passionné de graphisme et d’audiovisuel. Avoir l’occasion de créer un site web est une opportunité d’acquérir de nouvelles expériences !
+
+Je vous laisse donc visiter mon site !
+</p>
+
+
+<h1>
+    Me Contacter
+</h1>
+
+<form action="#">
+<div> <img class="logo_contact" src="./public/img/logo/logocontacte.webp">
+    <label for="Prénom">Prénom</label><br>
+    <br><input type="text" name="Prénom" id="Prénom">
+  </div>
+
+ <br> <div>
+    <label for="Nom">Nom</label><br>
+    <br><input type="text" name="Nom" id="Nom">
+  </div>
+
+ <br> <div>
+    <label for="E-mail">E-mail</label><br>
+    <br><input type="text" name="E-mail" id="E-mail">
+  </div>
+
+<br> <div>
+    <label for="message">Message</label><br>
+    <br><textarea rows="5" name="message" id="message"></textarea>
+  </div>
+
+<br><button type="submit">Envoyer</button>
+
+</form><br><br>
+
+
+
+<footer class="footer">
+    <img class="logommi" src="./public/img/logo/MMI_dut_small_purple.webp">
+    <br>
+    <h4> Mentions Légales</h4>
+    <p class="mentions">Projet réalisé dans le cadre d’un exercice <br> pédagogique au département MMi de Montbéliard
+    </p>
+    <h4> Me contacter</h4>
+    <p class="contacter">Kubilay YARDIMLI C2<br>kubilay.yardimli@gmail.com
+    </p>
+    <img class="insta" src="./public/img/logo/instagram (2).svg"> <img class="twitter" src="./public/img/logo/twitter (1).svg"> <img class="linkedin" src="./public/img/logo/linkedin (1).svg"> 
+  
+    <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+  <br>
+  </footer>
+</body>
+</html>
