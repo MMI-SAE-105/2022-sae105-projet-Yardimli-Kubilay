@@ -173,8 +173,12 @@ img {
 .imgfrise {
   width: 200px;
   justify-content: center;
+  border-left: 7px solid #000000;
 }
-.imgfrise ::before {
+.imgfrise ::before{
+  
+}
+.imgfrise::before {
   width: 30px;
   height: 3px;
   background: black;
