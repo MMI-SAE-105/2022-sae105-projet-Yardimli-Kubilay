@@ -170,17 +170,44 @@ img {
   text-align: center;
   font-size: 24px;
 }
-.imgfrise {
+.frise {
   width: 200px;
   justify-content: center;
   border-left: 7px solid #000000;
 }
 .imgfrise::before {
-  width: 30px;
-  height: 3px;
-  background: black;
+  content: "";
   display: block;
-  border-left: black;
+  height: 5px;
+  width: 70px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-2.5px);
+}
+.datefrise {
+  display: block;
+  height: 1.5rem;
+  width: 70px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(calc(-2.5px - 1.5rem));
+  padding-left: 2px;
+}
+.imgfrise {
+  display: block;
+  width: 200px;
+  justify-content: center;
+  padding: 2rem 0;
+  padding-left: 70px;
+  position: relative;
+}
+.imgfrise img {
+  display: block;
+  width: 200px;
+ 
 }
 .imgfilmographie {
   width: 80vw;
