@@ -27,6 +27,20 @@ body{
   display: block;
   margin: 0 auto;
 }
+.rectanglehome {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 345px;
+  height: 490px;
+  left: 14px;
+  top: 537px;
+  background: #FAFAFA;
+  border: 0.5px solid #F0B27A;
+  box-shadow: 0px 11px 11px rgba(0, 0, 0, 0.25);
+}
+.articlerectangle{
+  position: relative;
+}
 .livrehome {
   width: 50vw;
   display: block;
@@ -174,6 +188,17 @@ img {
   width: 200px;
   justify-content: center;
   border-left: 7px solid #000000;
+  position: relative;
+  margin-left: 5%;
+}
+.flechefrise {
+  width: 32px;
+  height: 20px;
+  background-color: #000000;
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
+  position: absolute;
+  bottom: -20px;
+  left: -19.5px;
 }
 .imgfrise::before {
   content: "";

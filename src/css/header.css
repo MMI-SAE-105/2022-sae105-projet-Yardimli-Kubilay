@@ -31,6 +31,7 @@ a{
     display: grid;
     place-content: center;
     font-size: 18px;
+    z-index: 9;
   }
 .header_menuBtn {
     position: relative;
