@@ -94,23 +94,23 @@ img {
   margin: 0%; 
   }
 .youtube_musique {
-    width: 400px;
+    width: 350px;
     height: 315px;
     display: block;
     margin: 0 auto;
   }
 .youtube_film {
-    width: 400px;
+    width: 350px;
     height: 315px;
     display: block;
     margin: 0 auto;
   }
 .presentation {
-  margin: auto;
+  margin: 0 auto;
   display: block;
-  width: 350px;
-  height: 175px;
-  left: 24px;
+  width: 300px;
+  height: 190px;
+  left: 20px;
   top: 250px;
   background: #F0B27A;
   text-align: center;
@@ -174,9 +174,6 @@ img {
   width: 200px;
   justify-content: center;
   border-left: 7px solid #000000;
-}
-.imgfrise ::before{
-  
 }
 .imgfrise::before {
   width: 30px;

@@ -38,9 +38,7 @@ a{
     display: block;
     height: 10vw;
     width: 10vw;
-    left: 350px;
-    top: 20px;
-
+    background-color: #161029;
   }
 .noscroll,
 .noscroll body {
