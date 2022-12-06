@@ -1,6 +1,22 @@
 body{
   background-color: #FAFAFA;
 }
+.presentationhome {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  height: 120px;
+  left: 20px;
+  top: 500px;
+  background: #F0B27A;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 17px;
+  gap: 10px;
+  font-size: 17px;
+}
 .titre3 {
   text-align: center;
   font-family: 'OPTIBodoni-Antiqua';
@@ -13,11 +29,6 @@ body{
   width: 20vw;
 }
 .ligne {
-  display: block;
-  margin: 0 auto;
-  width: 50vw;
-}
-.ligneblanc {
   display: block;
   margin: 0 auto;
   width: 50vw;
@@ -285,4 +296,10 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
+}
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
 }

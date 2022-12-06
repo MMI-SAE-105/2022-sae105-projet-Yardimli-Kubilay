@@ -1,6 +1,11 @@
 footer {
-    background-color: #181818;
-    color: #ffffff;
+  background-color: #181818;
+  color: #ffffff;
+  position: end;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
   }
 .logommi {
     width: 15vw;
