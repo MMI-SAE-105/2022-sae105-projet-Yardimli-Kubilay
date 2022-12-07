@@ -12,11 +12,11 @@ header {
 }
 
 a{
+  text-align: center;
   text-decoration: none;
   color:#FFFFFF;
   }
 .titre {
-  text-align: center;
   color: #FFFFFF;
   font-family: 'OPTIBodoni-Antiqua';
   font-style: normal;
@@ -27,6 +27,7 @@ a{
   -webkit-text-stroke-color: #F0B27A
   }
 .menu {
+  text-align: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -44,9 +45,11 @@ a{
   display: block;
   height: 10vw;
   width: 10vw;
-  background-color: #161029;
+  background-color: #fafafa;
   }
 .noscroll,
 .noscroll body {
   overflow: hidden;
   }
+
+  
