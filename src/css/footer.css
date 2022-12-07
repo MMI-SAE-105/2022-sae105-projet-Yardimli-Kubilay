@@ -36,3 +36,8 @@ footer {
     position: relative;
     left: 40%;
   }
+  .ligneblanche {
+    width: 300px;
+    justify-content: center;
+    margin: auto;
+  }

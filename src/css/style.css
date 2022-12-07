@@ -33,11 +33,6 @@ body{
   margin: 0 auto;
   width: 50vw;
 }
-.ayasofiahome {
-  width: 90vw;
-  display: block;
-  margin: 0 auto;
-}
 .rectanglehome {
   box-sizing: border-box;
   margin: 0 auto;
@@ -51,6 +46,11 @@ body{
 }
 .articlerectangle{
   position: relative;
+}
+.ayasofiahome {
+  width: 90vw;
+  display: block;
+  margin: 0 auto;
 }
 .livrehome {
   width: 50vw;
@@ -98,9 +98,32 @@ body{
   display: block;
   margin: 0 auto;
 }
+.voirplus {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  padding: 0 auto;
+  border-color: #000000;
+  background-color: #FAFAFA;
+  }
+.imgvoirplus {
+  width: 8vw;
+  position: relative;
+
+}
+.textvoirplus {
+  font-size: 150%;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  padding-right: 2%;
+  
+}
 img {
   display: flex;
-    width: 100%;
+  width: 100%;
   }
 .carrousel_parent-ecrans {
   display: flex;

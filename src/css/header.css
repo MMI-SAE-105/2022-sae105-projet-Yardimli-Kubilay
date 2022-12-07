@@ -12,46 +12,41 @@ header {
 }
 
 a{
-    text-decoration: none;
-    color:#FFFFFF;
+  text-decoration: none;
+  color:#FFFFFF;
   }
 .titre {
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'OPTIBodoni-Antiqua';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 65px;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: #F0B27A
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'OPTIBodoni-Antiqua';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #F0B27A
   }
 .menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 217vw;
-    background: #161029;
-    display: grid;
-    place-content: center;
-    font-size: 18px;
-    z-index: 9;
-  }
-  .ligneblanc {
-    display: block;
-    margin: 0 auto;
-    width: 50vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 217vw;
+  background: #161029;
+  display: grid;
+  place-content: center;
+  font-size: 18px;
+  z-index: 9;
   }
 .header_menuBtn {
-    position: relative;
-    z-index: 10;
-    display: block;
-    height: 10vw;
-    width: 10vw;
-    background-color: #161029;
+  position: relative;
+  z-index: 10;
+  display: block;
+  height: 10vw;
+  width: 10vw;
+  background-color: #161029;
   }
 .noscroll,
 .noscroll body {
-    overflow: hidden;
+  overflow: hidden;
   }
