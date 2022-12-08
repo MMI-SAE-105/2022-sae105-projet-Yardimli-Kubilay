@@ -7,6 +7,10 @@ footer {
   width: 100%;
   z-index: 2;
   }
+  footer a{
+    color: #ffffff;
+    text-decoration: underline;
+  }
 .logommi {
     width: 15vw;
     display: block;
