@@ -11,7 +11,7 @@ header {
   color:#FFFFFF
 }
 
-a{
+header a{
   text-align: center;
   text-decoration: none;
   color:#FFFFFF;
@@ -24,7 +24,7 @@ a{
   font-size: 48px;
   line-height: 65px;
   -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: #F0B27A
+  -webkit-text-stroke-color: #F0B27A;
   }
 .menu {
   text-align: center;
@@ -51,5 +51,7 @@ a{
 .noscroll body {
   overflow: hidden;
   }
-
-  
+  .ligneb {
+    border-top:1px solid white;
+    line-height: 3em;
+  }

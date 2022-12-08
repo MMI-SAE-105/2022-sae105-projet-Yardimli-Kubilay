@@ -6,56 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Past Life</title>
     <script defer src="https://unpkg.com/alpinejs"></script>
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/header.css">
-    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
   </head>
   <body>
     <header class="header">
-        <button aria-controle="mainNav"
-        @click="menuIsOpen = ! menuIsOpen"
-        class="header_menuBtn";
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn";
+      >
+      </button>
+      <a href="/fr/index.html"><h1 class=titre> PAST LIFE</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.650ms
+        class="menu"
         >
-        <img src="./public/img/logo/menu.webp" alt="">
-        </button>
-        <h1 class=titre>PAST LIFE</h1>
-        <nav 
-          id="mainNav"
-          x-show="menuIsOpen"
-          x-transition.duration.650ms
-          class="menu"
-          >
-          <ul>
-            <li><a href="index.html">Page d’accueil</a></li>
-            <br>
-            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
-            <p class=titre2>Les articles</p>
-            <li><a href="page lieu.html">Sainte-Sophie</a></li>
-            <li><a href="page livre.html">Attaque des Titans</a></li>
-            <li><a href="page musique.html">Shinzou wo Sasageyo</a></li>
-            <li><a href="page film.html">Interstellar</a></li>
-            <li><a href="page espoir.html">Exploration Spatial</a></li>
-            <li><a href="page regret.html">Réchauffement Climatique</a></li>
-            <li><a href="page bu.html">Game of Thrones</a></li>
-            <br>
-            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
-            <br>
-            <li><a href="page en savoir+.html">En savoir +</a></li>
-            <br>
-            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
-            <br>
-            <li><a href="page contact.html">À propos  / Me contact</a></li>
-            <br>
-            <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
-            <br>
-            <li><a href="page d’autres projets.html">D’autres projets</a></li>
-          </ul>
-        </nav>
-      </header>
+        <ul>
+          <li><a href="/fr/index.html">Page d’accueil</a></li>
+          <p class="ligneb" class=titre2>Les articles</p>
+          <li><a href="/fr/page_lieu.html">Sainte-Sophie</a></li>
+          <li><a href="/fr/page_livre.html">Attaque des Titans</a></li>
+          <li><a href="/fr/page_musique.html">Shinzou wo Sasageyo</a></li>
+          <li><a href="/fr/page_film.html">Interstellar</a></li>
+          <li><a href="/fr/page_espoir.html">Exploration Spatial</a></li>
+          <li><a href="/fr/page_regret.html">Réchauffement Climatique</a></li>
+          <li><a href="/fr/page_bu.html">Game of Thrones</a></li>
+          <li class="ligneb"><a href="page_en_savoir.html" >En savoir +</a></li>
+          <li class="ligneb"><a href="page_contact.html">À propos  / Me contact</a></li>
+          <li class="ligneb"><a href="page_autres_projets.html">D’autres projets</a></li>
+        </ul>
+      </nav>
+    </header>
 <h1>
-    Livre<br>attaque des titans
+    Attaque des titans
 </h1>
-<img class="livrehome" src="./public/img/livre/livre image 2.webp">
+<img class="livrehome" src="/public/img/livre/livre image 2.webp">
 <br>
 <h2>
     L’Attaque des Titans  <br> c’est quoi ?
@@ -66,7 +54,7 @@
 <p>
     Crée par Hajime Isayama. Il est prépublier entre septembre 2009 et avril 2021 en 34 volumes et publié par le mensuel Bessatsu Shonen Magazine par Kodansha au Japon et édité en France par PIKA. </p>
 <br>
-<img src="./public/img/livre/livre Attack-on-Titan-Mangas-900x632-removebg-preview 1.webp">
+<img src="/public/img/livre/livre Attack-on-Titan-Mangas-900x632-removebg-preview 1.webp">
 <br>
 
 <h2>
@@ -86,31 +74,31 @@
     Au moment où l’histoire se passe, le jeune Eren et sa sœur Mikasa, vont être témoin de la mort de leur mère dévorée par un titan, Eren n’a qu’un rêve : entrer dans le corps d’élite chargé de découvrir l’origine des titans, et les annihiler jusqu’au dernier…
 </p>
 
-<img class="flechecourbe" src="./public/img/logo/120914.png">
+<img class="flechecourbe" src="/public/img/logo/120914.png">
 
 <div class="carrousel" x-data="{}">
     <div class="carrousel_parent-ecrans">
         <div id="ecran-1" class="carrousel_ecran">
             <figure>
-                <img src="./public/img/livre/livre image 17.webp" alt="image ecran 1">
+                <img src="/public/img/livre/livre image 17.webp" alt="image ecran 1">
                 <figcaption>Ecran 1</figcaption>
             </figure>
         </div>
         <div id="ecran-2" class="carrousel_ecran">
             <figure>
-                <img src="./public/img/livre/livre image 18.webp" alt="image ecran 2">
+                <img src="/public/img/livre/livre image 18.webp" alt="image ecran 2">
                 <figcaption>Ecran 2</figcaption>
             </figure>
         </div>
         <div id="ecran-3" class="carrousel_ecran">
             <figure>
-                <img src="./public/img/livre/livre image 19.webp" alt="image ecran 3">
+                <img src="/public/img/livre/livre image 19.webp" alt="image ecran 3">
                 <figcaption>Ecran 3</figcaption>
             </figure>
         </div>
         <div id="ecran-4" class="carrousel_ecran">
             <figure>
-                <img class="livrehome" src="./public/img/livre/livre image 20.webp" alt="image ecran 4">
+                <img class="livrehome" src="/public/img/livre/livre image 20.webp" alt="image ecran 4">
                 <figcaption>Ecran 4</figcaption>
             </figure>
         </div>
@@ -167,7 +155,7 @@
     C’est également aux États-Unis qu’est parue une anthologie en 2016, regroupant plusieurs histoires dessinées par de grands noms du Comics. Il est paru en France en octobre 2017 mais sa commercialisation a aujourd’hui été arrêtée.
 </p>
 
-<img src="./public/img/livre/livre image 15.webp">
+<img src="/public/img/livre/livre image 15.webp">
 <h2>
     Avis personnel
 </h2>
@@ -176,7 +164,7 @@
 </p>
 
 <footer class="footer">
-    <img class="logommi" src="./public/img/logo/MMI_dut_small_purple.webp">
+    <img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp">
     <br>
     <h4> Mentions Légales</h4>
     <p class="mentions">Projet réalisé dans le cadre d’un exercice <br> pédagogique au département MMi de Montbéliard
@@ -184,9 +172,9 @@
     <h4> Me contacter</h4>
     <p class="contacter">Kubilay YARDIMLI C2<br>kubilay.yardimli@gmail.com
     </p>
-    <img class="insta" src="./public/img/logo/instagram (2).svg"> <img class="twitter" src="./public/img/logo/twitter (1).svg"> <img class="linkedin" src="./public/img/logo/linkedin (1).svg"> 
+    <img class="insta" src="/public/img/logo/instagram (2).svg"> <img class="twitter" src="/public/img/logo/twitter (1).svg"> <img class="linkedin" src="/public/img/logo/linkedin (1).svg"> 
   
-    <img class="ligneblanc" src="./public/img/logo/Line 1blanc.webp">
+    <img class="ligneblanche" src="/public/img/logo/Line 1blanc.webp">
   <br>
   </footer>
 </body>
