@@ -55,7 +55,13 @@ header a{
 .noscroll body {
   overflow: hidden;
   }
-  .ligneb {
-    border-top:1px solid white;
-    line-height: 3em;
+.ligneb {
+  border-top:1px solid white;
+  line-height: 3em;
   }
+.langue2 {
+  display: inline-block;
+  position: relative;
+  text-align: center;    
+  font-size: 20px;
+}
