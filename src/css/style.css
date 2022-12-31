@@ -1,5 +1,6 @@
 body{
   background-color: #FAFAFA;
+  margin: 0%;
 }
 .presentationhome {
   margin: 0 auto;
@@ -28,14 +29,9 @@ body{
   margin: 0 auto;
   width: 20vw;
 }
-.ligne {
-  display: block;
-  margin: 0 auto;
-  width: 50vw;
-}
 .rectanglehome {
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 8px;
   width: auto;
   height: auto;
   left: 14px;
@@ -43,6 +39,17 @@ body{
   background: #FAFAFA;
   border: 0.5px solid #F0B27A;
   box-shadow: 0px 11px 11px rgba(0, 0, 0, 0.25);
+}
+hr {
+  display: block; 
+  height: 1px;
+  width: 200px;
+  border: 0; 
+  border-top: 3px solid #000000;
+  margin-top: 30px; 
+  margin-bottom: 30px;
+  padding: 0;
+  line-height: 3em;
 }
 a{
   text-align: center;
@@ -291,4 +298,8 @@ h2 {
 }
 h1 {
   text-align: center;
+}
+p {
+  margin-left: 10px;
+  margin-right: 10px;
 }

@@ -17,6 +17,8 @@ header a{
   color:#FFFFFF;
   }
 .titre {
+  margin-bottom: 32px;
+  margin-top: 0%;
   color: #FFFFFF;
   font-family: 'OPTIBodoni-Antiqua';
   font-style: normal;
@@ -40,12 +42,14 @@ header a{
   z-index: 9;
   }
 .header_menuBtn {
-  position: relative;
-  z-index: 10;
-  display: block;
-  height: 10vw;
-  width: 10vw;
-  background-color: #fafafa;
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  z-index: 32;
+  right: 20px;
+  top: 10px;
+  background-color: #00000000;
+  border-style: none;
   }
 .noscroll,
 .noscroll body {

@@ -45,3 +45,14 @@ footer {
     justify-content: center;
     margin: auto;
   }
+  footer hr {
+    display: block; 
+    height: 1px;
+    width: 300px;
+    border: 0; 
+    border-top: 4px solid #ffffff;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    padding: 0;
+    line-height: 3em;
+  }
