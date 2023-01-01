@@ -294,10 +294,16 @@ img {
   font-size: 14px;
   line-height: 19px;
 }
+h1 {
+  text-align: center;
+}
 h2 {
   text-align: center;
 }
-h1 {
+h3 {
+  text-align: center;
+}
+h4 {
   text-align: center;
 }
 p {
