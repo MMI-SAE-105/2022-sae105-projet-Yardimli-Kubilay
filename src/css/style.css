@@ -228,6 +228,16 @@ img {
   transform: translateY(calc(-2.5px - 1.5rem));
   padding-left: 2px;
 }
+.datefriseen {
+  display: block;
+  height: 1.5rem;
+  width: 70px;
+  position: absolute;
+  left: 0;
+  top: 45%;
+  transform: translateY(calc(-2.5px - 1.5rem));
+  padding-left: 2px;
+}
 .imgfrise {
   display: block;
   width: 200px;
@@ -300,10 +310,7 @@ h1 {
 h2 {
   text-align: center;
 }
-h3 {
-  text-align: center;
-}
-h4 {
+h5 {
   text-align: center;
 }
 p {
