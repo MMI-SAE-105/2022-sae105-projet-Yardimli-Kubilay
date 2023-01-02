@@ -117,27 +117,16 @@ img {
   overflow-x: scroll;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-  
+  margin: 0%; 
   }
 .carrousel_ecran {
   flex: none;
   width: 100%;
   scroll-snap-align: start;
+  margin: 0%; 
   }
 .carrousel_ecran figure {
   margin: 0%; 
-  }
-.youtube_musique {
-    width: 350px;
-    height: 315px;
-    display: block;
-    margin: 0 auto;
-  }
-.youtube_film {
-    width: 350px;
-    height: 315px;
-    display: block;
-    margin: 0 auto;
   }
 .presentation {
   margin: 0 auto;
@@ -322,17 +311,6 @@ p {
   display: block;
   width: 300px;
   height: 130px;
-  left: 20px;
-  top: 250px;
-  background: #F0B27A;
-  text-align: center;
-  font-size: 17px;
-}
-.autreprojet2 {
-  margin: 0 auto;
-  display: block;
-  width: 300px;
-  height: 60px;
   left: 20px;
   top: 250px;
   background: #F0B27A;
