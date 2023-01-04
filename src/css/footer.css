@@ -6,6 +6,7 @@ footer {
   left: 0;
   width: 100%;
   z-index: 2;
+  margin-top: 10px;
   }
   footer a{
     color: #ffffff;
@@ -16,29 +17,40 @@ footer {
     display: block;
     float: right;
   }
+.mentionslegales {
+  padding-top: 40px;
+}
 .mentions {
     text-align: center;
+    margin: 0px;
   }
 .contacter {
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 .insta {
     width: 10vw;
     display: inline-block;
     position: relative;
     left: 25%;
+    margin-top: 20px;
+
   }
 .twitter {
     width: 10vw;
     display: inline-block;
     position: relative;
     left: 33%;
+    margin-top: 20px;
   }
 .linkedin {
     width: 10vw;
     display: inline-block;
     position: relative;
     left: 40%;
+    margin-top: 20px;
+
   }
   .ligneblanche {
     width: 300px;
@@ -61,4 +73,5 @@ footer {
   position: relative;
   left: 38%;
   font-size: 20px;
+  bottom: 10px;
   }
