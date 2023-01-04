@@ -19,11 +19,15 @@ footer {
   }
 .mentionslegales {
   padding-top: 40px;
+  padding-left: 20px;
 }
 .mentions {
     text-align: center;
     margin: 0px;
   }
+.mecontacter {
+  padding-left: 20px;
+}
 .contacter {
     text-align: center;
     margin-top: 0px;
