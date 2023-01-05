@@ -327,3 +327,17 @@ p {
   margin: 0 auto;
   display: block;
 }
+.espacetexte {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.titreh4 {
+  text-align: center;
+}
+.description1 {
+  text-align: center;
+  margin-top: 0px;  
+}
+.description2 {
+  margin-top: 0px;
+}
