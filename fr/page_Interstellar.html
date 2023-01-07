@@ -12,24 +12,24 @@
   </head>
   <body>
     <header class="header">
-      <button aria-controle="mainNav"
-      @click="menuIsOpen = ! menuIsOpen"
-      class="header_menuBtn";
-      >
-      <img src="/public/img/logo/menu.webp">
-      </button>
-      <a href="/index.html"><h1 class=titre> PAST LIFE</h1></a>
-      <nav 
-        id="mainNav"
-        x-show="menuIsOpen"
-        x-transition.duration.650ms
-        class="menu"
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
         >
-        <ul>
-            <a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a>
+        <img src="/public/img/logo/menu.webp" alt="menu bouton">
+        </button>
+        <a href="/index.html"><h1 class=titre> PAST LIFE</h1></a>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
   
             <li><a href="/index.html">Page d’accueil</a></li>
-            <li class="ligneb" class=titre2>Les articles</li>
+            <li class="ligneb titre2">Les articles</li>
             <li><a href="/fr/page_Sainte-Sophie.html">Sainte-Sophie</a></li>
             <li><a href="/fr/page_Attaque_des_titans.html">Attaque des Titans</a></li>
             <li><a href="/fr/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
@@ -38,92 +38,98 @@
             <li><a href="/fr/page_Réchauffement_climatique.html">Réchauffement Climatique</a></li>
             <li><a href="/fr/page_Game_of_thrones.html">Game of Thrones</a></li>
             <li class="ligneb"><a href="/fr/page_en_savoir.html" >En savoir +</a></li>
-            <li class="ligneb"><a href="/fr/page_contact.html">À propos  / Me contact</a></li>
+            <li class="ligneb"><a href="/fr/page_contact.html">À propos  / Me contacter</a></li>
             <li class="ligneb"><a href="/fr/page_autres_projets.html">D’autres projets</a></li>
           </ul>
-      </nav>
+        </nav>
     </header>
 <h1>
     Interstellar
 </h1>
-<img class="filmhome" src="/public/img/film/film image 4.webp">
-<figcaption class="caption">Affiche du film Interstellar </figcaption>
+<img class="filmhome" src="/public/img/film/film image 4.webp" alt="Affiche du film Interstellar">
+<p class="caption">Affiche du film Interstellar </p>
 
-<br>
+
 <h2>
-    Interstellar <br> c’est quoi ?
+    Interstellar 
+</h2>
+<h2> 
+    c’est quoi ?
 </h2>
 <p>
     Le film Interstellar est sorti le 5 novembre 2014. Réaliser par Christopher Nolan, c’est un film de science-fiction qui se passe dans l’espace. Il a fait 701,7 millions de dollars aux box-office avec un budget de 165 millions de dollars, il a été nommé aux oscars plusieurs fois.
 </p>
 
 
-<figcaption class="caption">INTERSTELLAR - Bande Annonce Officielle</figcaption>
 <video controls class="videomicrott">
-<source src="/public/video/INTERSTELLAR - Bande Annonce Officielle (VF) - Matthew McConaughey  Christopher Nolan.mp4" type="video/mp4">
+<source src="https://medias.kubilayyardimli.fr/INTERSTELLAR-Bande_Annonce_Officielle_(VF)-Matthew_McConaughey_Christopher_Nolan.mp4" type="video/mp4">
 </video>
+<p class="caption">INTERSTELLAR - Bande Annonce Officielle</p>
+
+
 <h2>
     Le Synopsis
 </h2>
 
-<p>
+<p class="espacetexte">
     Dans un futur proche qui se passe en 2067, la Terre est devenue invivable pour l’homme car l’humanité passe par une grave crise alimentaire. La terre est devenue trop aride et incultivable, et les fréquentes tempête de sable n’arrange pas les choses. 
 </p>
 
-<p>
+<p class="espacetexte">
     On va suivre l’histoire de Cooper un ancien pilote de la NASA qui s’est reconverti en agriculteur et vit dans la ferme familiale avec son fils et sa fille. Lorsqu’un phénomène qu’il ne peut pas expliquer lui permet d’avoir des coordonnées d’une division secrète de la NASA. Il est alors embarqué dans une expédition pour sauver l'humanité à travers l’espace.
 </p>
-<br>
 
-<img class="flechecourbe" src="/public/img/logo/120914.png">
+
+<img class="flechecourbe" src="/public/img/logo/120914.png" alt="fleche courber droite">
 
 <div class="carrousel" x-data="{}">
     <div class="carrousel_parent-ecrans">
         <div id="ecran-1" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/film/film image 17 copie.webp" alt="image ecran 1">
+                <img src="/public/img/film/film_image_17_copie.webp" alt="image de l'affiche du film Interstallar">
                 <figcaption>L'image de l'affiche du film Interstallar </figcaption>
             </figure>
         </div>
         <div id="ecran-2" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/film/film image 18 copie.webp" alt="image ecran 2">
+                <img src="/public/img/film/film_image_18_copie.webp" alt="Image prise du film">
                 <figcaption>Image prise du film</figcaption>
             </figure>
         </div>
         <div id="ecran-3" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/film/film image 19 copie.webp" alt="image ecran 3">
+                <img src="/public/img/film/film_image_19_copie.webp" alt="Image prise du film">
                 <figcaption>Image prise du film</figcaption>
             </figure>
         </div>
         <div id="ecran-4" class="carrousel_ecran">
             <figure>
-                <img class="livrehome" src="/public/img/film/film image 20 copie.webp" alt="image ecran 4">
+                <img class="livrehome" src="/public/img/film/film_image_20_copie.webp" alt="Affiche du film Interstellar">
                 <figcaption>Affiche du film Interstellar</figcaption>
             </figure>
         </div>
     </div>
 </div>
 
-<br>
+
 
 <h2>
     Présentation du film
 </h2>
 
-<p>
+<p class="espacetexte">
     Interstellar est un film de science-fiction avec des rebondissements et des retournements de situation qui nous fait voyager dans tout l’espace, avec comme acteur connu qui joue nous avons Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine, Casey Affleck et Matt Damon.
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     Interstellar a été un succès mondial, et pour récompenser ce succès, il a eu plusieurs distinctions et nominations dans le monde entier, aux oscars il a été nommé pour Les meilleurs décors, meilleurs montages de son, meilleurs mixages de son, meilleures musiques de film et meilleur effets visuels et ils ont gagné l’oscar pour les meilleurs effets visuels. Mais bien sûr le film a eu plusieurs récompenses en dehors des oscars.
 </p>
-<br>
 
-<img src="/public/img/film/film image 16.webp">
-<figcaption>Image prise du film</figcaption>
+
+<img src="/public/img/film/film_image_16.webp" alt="Image prise du film">
+<p class="description2">Image prise du film</p>
+
 <h2>
     Avis personnel
 </h2>
@@ -132,14 +138,14 @@
 </p>
 
 <footer class="footer">
-    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp"></a>
+    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp" alt="LOGO_MMI"></a>
     <h4 class="mentionslegales"> Mentions Légales</h4>
     <p class="mentions">Projet réalisé dans le cadre d’un exercice</p> <p class="mentions"> pédagogique au <a href="http://mmimontbeliard.com/">département MMi de Montbéliard</a>
     </p>
     <h4 class="mecontacter"> Me contacter</h4>
     <p class="contacter">Kubilay YARDIMLI C2 </p> <p class="contacter"><a href="mailto:kubilay.yardimli@gmail.com">kubilay.yardimli@gmail.com</a>
     </p>
-    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram (2).svg"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter (1).svg"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin (1).svg"></a>
+    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram.svg" alt="logo instagram"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter.svg " alt="logo twitter"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin.svg" alt="logo_linkedin"></a>
       
     <hr>
     <a href="/index.html"><p class="langue">FR</p></a>  <a href="/en/index_en.html"><p class="langue">EN</p></a>

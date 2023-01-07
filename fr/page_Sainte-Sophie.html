@@ -12,24 +12,24 @@
   </head>
   <body>
     <header class="header">
-      <button aria-controle="mainNav"
-      @click="menuIsOpen = ! menuIsOpen"
-      class="header_menuBtn";
-      >
-      <img src="/public/img/logo/menu.webp">
-      </button>
-      <a href="/index.html"><h1 class=titre> PAST LIFE</h1></a>
-      <nav 
-        id="mainNav"
-        x-show="menuIsOpen"
-        x-transition.duration.650ms
-        class="menu"
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
         >
-        <ul>
-            <a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a>
+        <img src="/public/img/logo/menu.webp" alt="menu bouton">
+        </button>
+        <a href="/index.html"><h1 class=titre> PAST LIFE</h1></a>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
   
             <li><a href="/index.html">Page d’accueil</a></li>
-            <li class="ligneb" class=titre2>Les articles</li>
+            <li class="ligneb titre2">Les articles</li>
             <li><a href="/fr/page_Sainte-Sophie.html">Sainte-Sophie</a></li>
             <li><a href="/fr/page_Attaque_des_titans.html">Attaque des Titans</a></li>
             <li><a href="/fr/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
@@ -38,58 +38,63 @@
             <li><a href="/fr/page_Réchauffement_climatique.html">Réchauffement Climatique</a></li>
             <li><a href="/fr/page_Game_of_thrones.html">Game of Thrones</a></li>
             <li class="ligneb"><a href="/fr/page_en_savoir.html" >En savoir +</a></li>
-            <li class="ligneb"><a href="/fr/page_contact.html">À propos  / Me contact</a></li>
+            <li class="ligneb"><a href="/fr/page_contact.html">À propos  / Me contacter</a></li>
             <li class="ligneb"><a href="/fr/page_autres_projets.html">D’autres projets</a></li>
           </ul>
-      </nav>
+        </nav>
     </header>
 <h1>
     Sainte-Sophie
 </h1>
-<img class="ayasofiahome" src="/public/img/lieu/lieu image 1.webp">
-<figcaption class="caption">Sainte Sophie ou Aya Sofia - Istanbul</figcaption>
-<br>
+<img class="ayasofiahome" src="/public/img/lieu/lieu_image_1.webp" alt="Sainte Sophie ou Aya Sofia - Istanbul">
+<p class="caption">Sainte Sophie ou Aya Sofia - Istanbul</p>
+
 <h2>
-    Sainte-Sophie <br> c’est quoi ?
+    Sainte-Sophie 
 </h2>
-<p>
+<h2> 
+    c’est quoi ?
+</h2>
+
+<p class="espacetexte">
     Sainte-Sophie est sans aucun doute le monument le plus célèbre d'Istanbul, c’est actuellement une mosquée mais anciennement une basilique chrétienne.
 Le nom de la mosquée vient du grec Hagia Sophia qui signifie « sainte sagesse », mais au fur et à mesure du temps et avec la langue turque aujourd’hui Sainte-Sophie est appelé Ayasofya. C’est un monument important pour les musulmans et les chrétiens.
 </p>
-<br>
-<p>
+
+<p class="espacetexte">
     Sainte-Sophie est une ancienne basilique chrétienne fondée à l’époque de Constantinople, plus précisément au 4ème siècle mais reconstruite plusieurs fois à la suite de plusieurs incidents. Celle que nous connaissons aujourd’hui est bien plus grande que celle d’avant, elle a été reconstruite 6ème siècle. Mais à l’époque du sultan Mehmed II (15ème siècle), Sainte-Sophie a été transformée en mosquée.  
 </p>
-<br>
-<p>
+
+<p class="espacetexte">
     Sainte-Sophie est un symbole fort de la puissance de Byzance mais représente aussi parfaitement l’art et l’architecture byzantine via sa structure mais aussi ses mosaïques et représente parfaitement l’art et l’architecture ottomane qui l’ont totalement transformé.
 Sainte-Sophie est situé dans le quartier historique d’Istanbul, SultanAhmet, sur la rive européenne d’Istanbul.
 </p>
-<br> <img class="flechecourbe" src="/public/img/logo/120914.png">
+
+<img class="flechecourbe" src="/public/img/logo/120914.png" alt="fleche courber droite">
 
 <div class="carrousel" x-data="{}">
     <div class="carrousel_parent-ecrans">
         <div id="ecran-1" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/lieu/lieu image 10.webp" alt="image ecran 1">
+                <img src="/public/img/lieu/lieu_image_10.webp" alt="Istanbul,Sainte-Sophie photo de Pascal Sébah, vers 1870">
                 <figcaption>Istanbul,Sainte-Sophie photo de Pascal Sébah, vers 1870</figcaption>
             </figure>
         </div>
         <div id="ecran-2" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/lieu/lieu image 11.webp" alt="image ecran 2">
+                <img src="/public/img/lieu/lieu_image_11.webp" alt="Istanbul, Sainte-Sophie vers 1854">
                 <figcaption>Istanbul, Sainte-Sophie vers 1854</figcaption>
             </figure>
         </div>
         <div id="ecran-3" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/lieu/lieu ayasofya-2.jpeg" alt="image ecran 3">
+                <img src="/public/img/lieu/lieu_ayasofya-2.jpeg" alt="Istanbul, Sainte-Sophie">
                 <figcaption>Istanbul, Sainte-Sophie</figcaption>
             </figure>
         </div>
         <div id="ecran-4" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/lieu/lieu images.jpeg" alt="image ecran 4">
+                <img src="/public/img/lieu/lieu_images.jpeg" alt="Istanbul, Sainte-Sophie 1900">
                 <figcaption>Istanbul, Sainte-Sophie 1900</figcaption>
             </figure>
         </div>
@@ -97,36 +102,36 @@ Sainte-Sophie est situé dans le quartier historique d’Istanbul, SultanAhmet, 
 </div>
 
 
-<br>
+
 
 <h2>
     Son histoire
 </h2>
 
-<p>
+<p class="espacetexte">
     La construction de Sainte-Sophie a débuté en 532, à la demande de l’empereur Justinien. 
 L’empereur à désigner le physicien Isidore de Milet et le mathématicien Anthemios de Tralles pour la supervision de la construction de la basilique, Sainte-Sophie a été construite sur le site d’un ancien temple grec.
 </p>
-<br>
 
-<p>
+<p class="espacetexte">
     Les matériaux de Sainte-Sophie ne sont pas ordinaire, car ils ont une origine variée. Les pierres proviennent d’une carrière provenant de Grèce, plus précisément les pierres d’une ancienne de cités grecques. 
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     Pour information les piliers du temple d’Artémis (une des merveilles du monde antique) situé actuellement à Éphèse en Turquie (540km d’Istanbul) ont été utilisés pour la construction de la basilique Sainte-Sophie. La basilique a été construite en 5 ans et on estime que plus de 10 000 ouvriers ont participé à sa construction.
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     Sainte-Sophie représente le savoir-faire, l’art et l’architecture byzantine et Ottomane.
 Toute l’architecture comme ses mosaïques, sa coupole ou encore ses colonnes sont encore de nos jours une référence sur l’architecture et l’art byzantin.
 L’architecture et le style de Sainte-Sophie à une influence mondiale importante, non seulement dans l'architecture de l'Église orthodoxe orientale, mais aussi dans l'architecture des églises catholiques et de certaines mosquées. 
 </p>
-<br>
-<img class="Ayasofya6" src="/public/img/lieu/lieu image 14.webp">
-<figcaption class="caption">Interieur de Sainte-Sophie </figcaption>
+
+
+<img class="Ayasofya6" src="/public/img/lieu/lieu_image_14.webp" alt="Interieur de Sainte-Sophie">
+<p class="caption">Interieur de Sainte-Sophie </p>
 <h2>
     Avis personnel
 </h2>
@@ -135,14 +140,14 @@ L’architecture et le style de Sainte-Sophie à une influence mondiale importan
 </p>
 
 <footer class="footer">
-    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp"></a>
+    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp" alt="LOGO_MMI"></a>
     <h4 class="mentionslegales"> Mentions Légales</h4>
     <p class="mentions">Projet réalisé dans le cadre d’un exercice</p> <p class="mentions"> pédagogique au <a href="http://mmimontbeliard.com/">département MMi de Montbéliard</a>
     </p>
     <h4 class="mecontacter"> Me contacter</h4>
     <p class="contacter">Kubilay YARDIMLI C2 </p> <p class="contacter"><a href="mailto:kubilay.yardimli@gmail.com">kubilay.yardimli@gmail.com</a>
     </p>
-    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram (2).svg"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter (1).svg"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin (1).svg"></a>
+    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram.svg" alt="logo instagram"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter.svg " alt="logo twitter"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin.svg" alt="logo_linkedin"></a>
       
     <hr>
     <a href="/index.html"><p class="langue">FR</p></a>  <a href="/en/index_en.html"><p class="langue">EN</p></a>

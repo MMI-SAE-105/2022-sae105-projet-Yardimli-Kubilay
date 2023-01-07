@@ -12,24 +12,24 @@
   </head>
   <body>
     <header class="header">
-      <button aria-controle="mainNav"
-      @click="menuIsOpen = ! menuIsOpen"
-      class="header_menuBtn";
-      >
-      <img src="/public/img/logo/menu.webp">
-      </button>
-      <a href="/index.html"><h1 class=titre> PAST LIFE</h1></a>
-      <nav 
-        id="mainNav"
-        x-show="menuIsOpen"
-        x-transition.duration.650ms
-        class="menu"
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn"
         >
-        <ul>
-            <a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a>
+        <img src="/public/img/logo/menu.webp" alt="menu bouton">
+        </button>
+        <a href="/index.html"><h1 class=titre> PAST LIFE</h1></a>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
   
             <li><a href="/index.html">Page d’accueil</a></li>
-            <li class="ligneb" class=titre2>Les articles</li>
+            <li class="ligneb titre2">Les articles</li>
             <li><a href="/fr/page_Sainte-Sophie.html">Sainte-Sophie</a></li>
             <li><a href="/fr/page_Attaque_des_titans.html">Attaque des Titans</a></li>
             <li><a href="/fr/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
@@ -38,85 +38,94 @@
             <li><a href="/fr/page_Réchauffement_climatique.html">Réchauffement Climatique</a></li>
             <li><a href="/fr/page_Game_of_thrones.html">Game of Thrones</a></li>
             <li class="ligneb"><a href="/fr/page_en_savoir.html" >En savoir +</a></li>
-            <li class="ligneb"><a href="/fr/page_contact.html">À propos  / Me contact</a></li>
+            <li class="ligneb"><a href="/fr/page_contact.html">À propos  / Me contacter</a></li>
             <li class="ligneb"><a href="/fr/page_autres_projets.html">D’autres projets</a></li>
           </ul>
-      </nav>
+        </nav>
     </header>
 <h1>
     Réchauffement climatique
 </h1>
-<img class="Regrethome" src="/public/img/regret/regret image 5.webp">
-<figcaption class="caption">Des marais salants désséchés sur l'Île de Noirmoutiers, le 7 août 2022</figcaption>
-<br>
+<img class="Regrethome" src="/public/img/regret/regret_image_5.webp" alt="Des marais salants désséchés sur l'Île de Noirmoutiers">
+<p class="caption">Des marais salants désséchés sur l'Île de Noirmoutiers, le 7 août 2022</p>
+
 <h2>
-    Le réchauffement climatique <br> c’est quoi ?
+    Le réchauffement climatique 
 </h2>
-<p>
-    Le changement climatique fait référence aux variations à long terme des températures et des conditions météorologiques. Il pourrait s'agir de variations naturelles causées par le cycle solaire, par exemple. Cependant, depuis le 19ème siècle, l'activité humaine a été un contributeur majeur au changement climatique, principalement à travers la combustion de combustibles fossiles tels que le charbon, le pétrole et le gaz. La combustion de combustibles fossiles libère des gaz à effet de serre, qui agissent comme une couverture autour de la terre, emprisonnant la chaleur du soleil et provoquant une augmentation des températures. 
+<h2> 
+    c’est quoi ?
+</h2>
+<p class="espacetexte">
+    Le changement climatique fait référence aux variations à long terme des températures et des conditions météorologiques. Par exemple il pourrait s'agir de variations naturelles causées par le cycle solaire. 
 </p>
-<br>
-<p>
-    Les émissions de dioxyde de carbone et de méthane, en particulier, sont responsables du changement climatique. Par exemple, il provient de l'utilisation de l'essence pour alimenter une voiture ou de l'utilisation du charbon pour chauffer un bâtiment. La déforestation des terres et des forêts peut également libérer du dioxyde de carbone. Les décharges sont une source majeure d'émissions de méthane. Les principaux émetteurs comprennent l'énergie, l'industrie, les transports, la construction, l'agriculture et d'autres secteurs d'utilisation des terres.
+<p class="espacetexte">  
+    Cependant, depuis le 19ème siècle, l'activité humaine a été un contributeur majeur au changement climatique, principalement à travers la combustion de combustibles fossiles tels que le charbon, le pétrole et le gaz. La combustion de combustibles fossiles libère des gaz à effet de serre, qui agissent comme une couverture autour de la terre, emprisonnant la chaleur du soleil et provoquant une augmentation des températures. 
 </p>
-<br>
-<img src="/public/img/regret/regret image 25 copie.webp">
-<figcaption>Un ours polaire squelettique sur sur la banquise</figcaption>
-<br>
-<p>
+
+<p class="espacetexte">
+    Les émissions de dioxyde de carbone et de méthane, en particulier, sont responsables du changement climatique. Par exemple, il provient de l'utilisation de l'essence pour alimenter une voiture ou de l'utilisation du charbon pour chauffer un bâtiment. La déforestation des terres et des forêts peut également libérer du dioxyde de carbone. Les décharges sont une source majeure d'émissions de méthane. 
+</p>
+<p class="espacetexte"> 
+    Les principaux émetteurs comprennent l'énergie, l'industrie, les transports, la construction, l'agriculture et d'autres secteurs d'utilisation des terres.
+</p>
+
+<img src="/public/img/regret/regret_image_25_copie.webp" alt="Un ours polaire squelettique sur sur la banquise">
+<p class="description2">Un ours polaire squelettique sur sur la banquise</p>
+
+<p class="espacetexte">
     Les concentrations de gaz à effet de serre ont atteint leur plus haut niveau depuis deux millions d'années et les émissions continuent d'augmenter. En conséquence, la température de surface mondiale actuelle est supérieure de 1,1 degré à celle de 1800. Cette dernière décennie  a été la plus chaude jamais enregistrée. Selon les plans climatiques nationaux actuels, le réchauffement climatique devrait atteindre 3,2 degré d'ici la fin de ce siècle.
 </p>
-<br>
-<p>
+
+<p class="espacetexte">
     De nombreuses personnes pensent que le changement climatique entraînera principalement une hausse des températures. Mais la hausse des températures n'est que le début de l'histoire. La terre est un système dans lequel tout est connecté, donc des changements n'importe où peuvent affecter n'importe où. Les impacts actuels du changement climatique comprennent les sécheresses sévères, la pénurie d'eau, les incendies graves, l'élévation du niveau de la mer, les inondations, la fonte des calottes polaires, les tempêtes catastrophiques et la perte de biodiversité. 
 </p>
 
-<br> <img class="flechecourbe" src="/public/img/logo/120914.png">
+<br> <img class="flechecourbe" src="/public/img/logo/120914.png" alt="fleche courber droite">
 <div class="carrousel" x-data="{}">
     <div class="carrousel_parent-ecrans">
         <div id="ecran-1" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/regret/regret image 10.webp" alt="image ecran 1">
+                <img src="/public/img/regret/regret_image_10.webp" alt="iUne zone d'arbres centenaires décimée à 99%">
                 <figcaption>Une zone d'arbres centenaires décimée à 99% pour faire place à un réservoir dans la Forêt nationale de Willamette dans l'Oregon, États-Unis</figcaption>
             </figure>
         </div>
         <div id="ecran-2" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/regret/regret image 11.webp" alt="image ecran 2">
+                <img src="/public/img/regret/regret_image_11.webp" alt="Décharge géante au Sénégal">
                 <figcaption>Décharge géante au Sénégal</figcaption>
             </figure>
         </div>
         <div id="ecran-3" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/regret/regret image 12.webp" alt="image ecran 3">
+                <img src="/public/img/regret/regret_image_12.webp" alt="Lac asséché">
                 <figcaption>Lac asséché</figcaption>
             </figure>
         </div>
         <div id="ecran-4" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/regret/regret image 13 copie.webp" alt="image ecran 4">
+                <img src="/public/img/regret/regret_image_13_copie.webp" alt="Incendie à Twain en Californie">
                 <figcaption>Incendie à Twain en Californie aux Etats-Unis</figcaption>
             </figure>
         </div>
     </div>
 </div>
-<br>
-<p>
+
+<p class="espacetexte">
     Les gens vivent le changement climatique de plusieurs façons. Le changement climatique peut affecter notre santé, notre capacité de production alimentaire, notre lieu de vie, notre sécurité et nos emplois.
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     Certains d'entre nous, y compris ceux des petites pays  et d'autres pays en voie de développement, sont déjà vulnérables à leurs effets. Une sécheresse continue et prolongée expose la population au risque de famine. De nombreuses solutions au changement climatique peuvent améliorer nos vies, protéger l'environnement et apporter des avantages économiques. 
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     Il existe également des cadres et des accords internationaux pour façonner les progrès, tels que les objectifs de développement durable, la Convention-cadre des Nations Unies sur les changements climatiques et l'Accord de Paris. Les trois principales catégories d'action sont la réduction des émissions, l'adaptation aux impacts du changement climatique et le financement de l'adaptation nécessaire.
 </p>
 
-<img src="/public/img/regret/regret image 26 copie.webp">
-<figcaption>Pollution plastique</figcaption>
+<img src="/public/img/regret/regret_image_26_copie.webp" alt="Pollution plastique">
+<p class="description2">Pollution plastique</p>
 <h2>
     Avis personnel
 </h2>
@@ -125,14 +134,14 @@
 </p>
 
 <footer class="footer">
-    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp"></a>
+    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp" alt="LOGO_MMI"></a>
     <h4 class="mentionslegales"> Mentions Légales</h4>
     <p class="mentions">Projet réalisé dans le cadre d’un exercice</p> <p class="mentions"> pédagogique au <a href="http://mmimontbeliard.com/">département MMi de Montbéliard</a>
     </p>
     <h4 class="mecontacter"> Me contacter</h4>
     <p class="contacter">Kubilay YARDIMLI C2 </p> <p class="contacter"><a href="mailto:kubilay.yardimli@gmail.com">kubilay.yardimli@gmail.com</a>
     </p>
-    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram (2).svg"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter (1).svg"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin (1).svg"></a>
+    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram.svg" alt="logo instagram"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter.svg " alt="logo twitter"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin.svg" alt="logo_linkedin"></a>
       
     <hr>
     <a href="/index.html"><p class="langue">FR</p></a>  <a href="/en/index_en.html"><p class="langue">EN</p></a>
