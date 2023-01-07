@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Past Life</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+  </head>
+  <body>
+    <header class="header">
+      <button aria-controle="mainNav"
+      @click="menuIsOpen = ! menuIsOpen"
+      class="header_menuBtn";
+      >
+      <img src="/public/img/logo/menu.webp" alt="menu bouton">
+      </button>
+      <a href="/en/index_en.html"><h1 class=titre> PAST LIFE</h1></a>
+      <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.650ms
+        class="menu"
+        >
+        <ul>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
+
+          <li><a href="/en/index_en.html">Home page</a></li>
+          <li class="ligneb titre2">The articles</li>
+          <li><a href="/en/page_Saint_Sophia.html">Saint Sophia</a></li>
+          <li><a href="/en/page_Attack_on_Titans.html">Attack on Titans</a></li>
+          <li><a href="/en/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
+          <li><a href="/en/page_Interstellar.html">Interstellar</a></li>
+          <li><a href="/en/page_Space_Exploration.html">Space Exploration</a></li>
+          <li><a href="/en/page_Global_Warming.html">Global Warming</a></li>
+          <li><a href="/en/page_Game_of_Thrones.html">Game of Thrones</a></li>
+          <li class="ligneb"><a href="/en/page_More_information.html" >More information</a></li>
+          <li class="ligneb"><a href="/en/page_contact.html">About me / Contact </a></li>
+          <li class="ligneb"><a href="/en/page_Other_projects.html">Other projects</a></li>
+        </ul>
+      </nav>
+    </header>
+<h1>
+  About me
+</h1>
+
+<div class="presentation">
+<p>
+    I'm Kubilay Yardimli, 1st year student of MMI (Multimedia and Internet) in Montbéliard.
+  </p>
+  <p>
+ I am passionate about graphic design and audiovisual. Having the opportunity to create a website is an opportunity to gain new experiences! <br>
+</p>
+<p>
+I let you visit my website!
+</p>
+</div>
+
+<hr>
+
+<div class="presentationprojet">
+  <p>
+    The "Notes for Later" project consists of presenting my future self with elements 
+  </p>
+  <p>
+    such as a place, a book, a film, music, as well as a fear and hope of our generation. The aim is to talk about things that have particularly marked our youth and that can be revisited with nostalgia in the future.
+  </p>
+  </div>
+  
+
+<footer class="footer">
+  <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp" alt="LOGO_MMI"></a>
+  <h4 class="mentionslegales"> Legal information</h4>
+  <p class="mentions">Project carried out as part of</p> <p class="mentions"> an educational exercise in <a href="http://mmimontbeliard.com/">the department MMI of Montbéliard</a>
+  </p>
+  <h4 class="mecontacter"> Contact me</h4>
+  <p class="contacter">Kubilay YARDIMLI C2 </p> <p class="contacter"><a href="mailto:kubilay.yardimli@gmail.com">kubilay.yardimli@gmail.com</a>
+  </p>
+  <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram.svg" alt="logo instagram"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter.svg" alt="logo twitter"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin.svg" alt="logo_linkedin"></a>
+    
+  <hr>
+  <a href="/index.html"><p class="langue">FR</p></a>  <a href="/en/index_en.html"><p class="langue">EN</p></a>
+
+</footer>
+</body>
+</html>

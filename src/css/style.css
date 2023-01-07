@@ -345,3 +345,14 @@ figcaption {
   margin-left: 10px;
   margin-right: 10px;
 }
+.presentationprojet {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  height: 290px;
+  left: 20px;
+  top: 250px;
+  background: #F0B27A;
+  text-align: center;
+  font-size: 17px;
+}

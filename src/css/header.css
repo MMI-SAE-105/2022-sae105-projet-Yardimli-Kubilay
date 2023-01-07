@@ -4,9 +4,11 @@ header {
   position:static;
   width: 100%;
   z-index: 2;
+  margin-bottom: 50px;
 }
 .titre2 {
   color:#FFFFFF;
+  margin-bottom: 20px;
 }
 
 header a{
@@ -15,7 +17,7 @@ header a{
   color:#FFFFFF;
   }
 .titre {
-  margin-bottom: 32px;
+  margin-bottom: 0px;
   margin-top: 0%;
   color: #FFFFFF;
   font-family: 'OPTIBodoni-Antiqua';
@@ -26,17 +28,14 @@ header a{
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: #F0B27A;
   }
+  
 .menu {
   text-align: center;
   position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  place-content: center;
   width: 100vw;
   height: 217vw;
   background: #161029;
-  display: grid;
-  place-content: center;
   font-size: 18px;
   z-index: 9;
   }
@@ -57,11 +56,17 @@ header a{
 .noscroll body {
   overflow: hidden;
   }
-.ligneb {
-  border-top:1px solid white;
-  line-height: 3em;
-  margin: 7px;
-  }
+  header hr {
+    display: block; 
+    height: 1px;
+    width: 230px;
+    border: 0; 
+    border-top: 1px solid #ffffff;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    padding: 0;
+    line-height: 3em;
+}
 .langue2 {
   display: inline-block;
   position: relative;
