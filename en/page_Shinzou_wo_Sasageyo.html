@@ -12,26 +12,26 @@
   </head>
   <body>
     <header class="header">
-      <button aria-controle="mainNav"
-      @click="menuIsOpen = ! menuIsOpen"
-      class="header_menuBtn";
-      >
-      <img src="/public/img/logo/menu.webp">
-      </button>
-      <a href="/en/index_en.html"><h1 class=titre> PAST LIFE</h1></a>
-      <nav 
-        id="mainNav"
-        x-show="menuIsOpen"
-        x-transition.duration.650ms
-        class="menu"
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn";
         >
-        <ul>
-            <a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a>
+        <img src="/public/img/logo/menu.webp" alt="menu bouton">
+        </button>
+        <a href="/en/index_en.html"><h1 class=titre> PAST LIFE</h1></a>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
   
             <li><a href="/en/index_en.html">Home page</a></li>
-            <p class="ligneb" class=titre2>The articles</p>
+            <li class="ligneb titre2">The articles</li>
             <li><a href="/en/page_Saint_Sophia.html">Saint Sophia</a></li>
-            <li><a href="/en/page_Attack on Titans.html">Attack on Titans</a></li>
+            <li><a href="/en/page_Attack_on_Titans.html">Attack on Titans</a></li>
             <li><a href="/en/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
             <li><a href="/en/page_Interstellar.html">Interstellar</a></li>
             <li><a href="/en/page_Space_Exploration.html">Space Exploration</a></li>
@@ -47,92 +47,94 @@
     Shinzou wo Sasageyo
 </h1>
 <h2>The ONE that will ENCHANT you</h2>
-<img class="musiquehome" src="/public/img/musique/musique image 3.webp">
-<figcaption class="caption">The Album musical Shingeki no Kiseki by Linked Horizon</figcaption>
+<img class="musiquehome" src="/public/img/musique/musique_image_3.webp" alt="The Album musical Shingeki no Kiseki by Linked Horizon">
+<p class="description1">The Album musical Shingeki no Kiseki by Linked Horizon</p>
 
-<br>
+
 <h2>
-    What is <br> Shinzou wo Sasageyo ?
+    What is 
+</h2>
+<h2> 
+    Shinzou wo Sasageyo ?
 </h2>
 <p>
     The music is called "Shinzo wo Sasageyo" by the group "Linked Horizon", and is best known for having composed several theme songs for the anime Attack of the Titans.
 </p>
 
-<figcaption class="caption">Attack on Titan Season 2 - Opening Shinzou wo Sasageyo!</figcaption>
 <video controls class="videomicrott">
-<source src="/public/video/Attack on Titan Season 2 - Opening  Shinzou wo Sasageyo!.mp4" type="video/mp4">
-</video>
-<br>
+    <source src="https://medias.kubilayyardimli.fr/Attack_on_Titan_Season_2_Opening_Shinzou_wo_Sasageyo!.mp4" type="video/mp4">
+    </video>
+    <p class="description2">Attack on Titan Season 2 - Opening Shinzou wo Sasageyo!</p>
 
 <h2>
     Presentation of the music group
 </h2>
 
-<p>
+<p class="espacetexte">
     Linked Horizon is a Japanese music band, founded by musician "Revo" in 2012, he is a singer but at the same time producer, guitarist and self-composer. They produce music in J-Pop and J-Rock styles (Japanese pop and Japanese rock).
 The name of the band Linked Horizon means to link different worlds to different media through music. 
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     The band collaborated with several different media such as the video game studio Square Enix to produce the music for the game Bravely Default. Afterwards they released an album with the music of the game in long version and other tracks.
 </p>
-<br>
-<p>
+
+
+<p class="espacetexte">
     They also collaborated with Wit Studio which is an animation studio to produce the theme song of the anime Attack of the Titans, and immediately the fans adhered to their styles and created a great importance among the fans of the anime, the music became known worldwide which allowed the group to produce the other theme songs and end credits of the anime. Thanks to this popularity, the band has released several albums with the various credits of the anime.
 </p>
 
-<img class="flechecourbe" src="/public/img/logo/120914.png">
+<img class="flechecourbe" src="/public/img/logo/120914.png" alt="right_curve_arrow">
 
 <div class="carrousel" x-data="{}">
     <div class="carrousel_parent-ecrans">
         <div id="ecran-1" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/musique/musique image 21.webp" alt="image ecran 1">
+                <img src="/public/img/musique/musique_image_21.webp" alt="Picture taken during a Linked Horizon concert">
                 <figcaption>Picture taken during a Linked Horizon concert</figcaption>
             </figure>
         </div>
         <div id="ecran-2" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/musique/musique image 22.webp"" alt="image ecran 2">
+                <img src="/public/img/musique/musique_image_22.webp" alt="Screenshot from the opening credits of Shinzou wo Sasageyo from attack of the titans">
                 <figcaption>Screenshot from the opening credits of Shinzou wo Sasageyo from attack of the titans</figcaption>
             </figure>
         </div>
         <div id="ecran-3" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/musique/musique image 23.webp"" alt="image ecran 3">
+                <img src="/public/img/musique/musique_image_23.webp" alt="Picture taken during a Linked Horizon concert">
                 <figcaption>Picture taken during a Linked Horizon concert</figcaption>
             </figure>
         </div>
         <div id="ecran-4" class="carrousel_ecran">
             <figure>
-                <img class="livrehome" src="/public/img/musique/musique image 24.webp"" alt="image ecran 4">
+                <img class="livrehome" src="/public/img/musique/musique_image_24.webp" alt="Picture from the Linked Horizon music album Shingeki no Kiseki">
                 <figcaption>Picture from the Linked Horizon music album Shingeki no Kiseki</figcaption>
             </figure>
         </div>
     </div>
 </div>
 
-<br>
 
 <h2>
     We will go into more detail in the lyrics of the music
 </h2>
 
-<p>
+<p class="espacetexte">
     Linked Horizon have produced and chosen the lyrics in relation to the atmosphere and the theme of the anime/manga. 
 This music gives the impression that it is made to give courage to the military troop which is directly linked to the anime, because in the anime the story revolves around the army and military history. 
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     The lyrics mean to devote oneself wholeheartedly to find freedom, which is in line with what is happening at the moment in the anime, "Shinzou wo sasageyo" means let's devote our heart, it is repeated several times in the music and especially in the chorus.
 </p>
-<br>
 
 
-<img src="/public/img/musique/musique image.webp">
-<figcaption>Album cover for Shinzou wo Sasageyo music</figcaption>
+
+<img src="/public/img/musique/musique_image.webp" alt="Album cover for Shinzou wo Sasageyo music">
+<p class="description2">Album cover for Shinzou wo Sasageyo music</p>
 <h2>
     Why is marked me ?
 </h2>
@@ -141,14 +143,14 @@ This music gives the impression that it is made to give courage to the military 
 </p>
 
 <footer class="footer">
-    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp"></a>
+    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp" alt="LOGO_MMI"></a>
     <h4 class="mentionslegales"> Legal information</h4>
     <p class="mentions">Project carried out as part of</p> <p class="mentions"> an educational exercise in <a href="http://mmimontbeliard.com/">the department MMI of Montbéliard</a>
     </p>
     <h4 class="mecontacter"> Contact me</h4>
     <p class="contacter">Kubilay YARDIMLI C2 </p> <p class="contacter"><a href="mailto:kubilay.yardimli@gmail.com">kubilay.yardimli@gmail.com</a>
     </p>
-    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram (2).svg"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter (1).svg"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin (1).svg"></a>
+    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram.svg" alt="logo instagram"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter.svg" alt="logo twitter"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin.svg" alt="logo_linkedin"></a>
       
     <hr>
     <a href="/index.html"><p class="langue">FR</p></a>  <a href="/en/index_en.html"><p class="langue">EN</p></a>

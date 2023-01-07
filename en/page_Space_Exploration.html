@@ -12,26 +12,26 @@
   </head>
   <body>
     <header class="header">
-      <button aria-controle="mainNav"
-      @click="menuIsOpen = ! menuIsOpen"
-      class="header_menuBtn";
-      >
-      <img src="/public/img/logo/menu.webp">
-      </button>
-      <a href="/en/index_en.html"><h1 class=titre> PAST LIFE</h1></a>
-      <nav 
-        id="mainNav"
-        x-show="menuIsOpen"
-        x-transition.duration.650ms
-        class="menu"
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn";
         >
-        <ul>
-            <a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a>
+        <img src="/public/img/logo/menu.webp" alt="menu bouton">
+        </button>
+        <a href="/en/index_en.html"><h1 class=titre> PAST LIFE</h1></a>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
   
             <li><a href="/en/index_en.html">Home page</a></li>
-            <p class="ligneb" class=titre2>The articles</p>
+            <li class="ligneb titre2">The articles</li>
             <li><a href="/en/page_Saint_Sophia.html">Saint Sophia</a></li>
-            <li><a href="/en/page_Attack on Titans.html">Attack on Titans</a></li>
+            <li><a href="/en/page_Attack_on_Titans.html">Attack on Titans</a></li>
             <li><a href="/en/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
             <li><a href="/en/page_Interstellar.html">Interstellar</a></li>
             <li><a href="/en/page_Space_Exploration.html">Space Exploration</a></li>
@@ -47,63 +47,70 @@
     Space exploration
 </h1>
 <h2>The HOPE of a WHOLE generation</h2>
-<img class="espoirhome" src="/public/img/espoir/espoir image 7.webp">
-<figcaption class="caption">Launch of a space shuttle</figcaption>
+<img class="espoirhome" src="/public/img/espoir/espoir_image_7.webp" alt="Launch of a space shuttle">
+<p class="description1">Launch of a space shuttle</p>
 
-<br>
+
 <h2>
-    What is <br> the space exploration ?
+    What is 
+</h2>
+<h2> 
+    the space exploration ?
 </h2>
 <p>
     Space has always attracted a lot of attention with its representations in films, video games, books, and through these representations we have dreamed of exploring space or even living there. 
 </p>
-<br>
+
 <p>
     The idea of sending objects and people into space was made years before it became physically possible because it was a matter of imagination to be able to go beyond our planet and it was made by science fiction writers. 
 </p>
-<br>
-<img src="/public/img/espoir/espoir image 25.webp">
-<figcaption>In this picture taken by Neil Armstrong, astronaut Edwin Aldrin walks on the moon near the space module on 20 July 1969</figcaption>
-<br>
-<p>
+
+<img src="/public/img/espoir/espoir_image_25.webp">
+<p class="description2">In this picture taken by Neil Armstrong, astronaut Edwin Aldrin walks on the moon near the space module on 20 July 1969</p>
+
+<p class="espacetexte">
     Towards the end of the 20th century, the dream of going into space was no longer a dream, but became a reality, thanks to the growth in the improvement of materials for the creation of rockets and means of propulsion, which made it possible to carry out missions in space. 
 </p>
-<br>
-<p>
+
+<p class="espacetexte">
     Space exploration includes all actions carried out in space and consists of the physical exploration of space. The colonisation of space could appear as a very long-term result of these explorations. Space exploration has mainly scientific but also economic or military objectives. 
 </p>
-<br>
-<p>
+
+<p class="espacetexte">
     Scientific exploration consists of the study of the earth system, the study of the climate, the atmosphere, the oceans etc... Studying the solar system and astronomy, the planets, stars etc.
-    <br>On the economic side, it would be in the fields of telecommunications, imaging etc. 
-    <br>On the military side, military activity is prohibited in space but it is used in other ways such as radar reconnaissance and terrain vision via satellites, early warning of certain dangers and interception of communications.
+</p>
+<p> 
+    On the economic side, it would be in the fields of telecommunications, imaging etc. 
+</p>
+<p> 
+    On the military side, military activity is prohibited in space but it is used in other ways such as radar reconnaissance and terrain vision via satellites, early warning of certain dangers and interception of communications.
 
 </p>
-<br> <img class="flechecourbe" src="/public/img/logo/120914.png">
+<img class="flechecourbe" src="/public/img/logo/120914.png" alt="right_curve_arrow">
 
 <div class="carrousel" x-data="{}">
     <div class="carrousel_parent-ecrans">
         <div id="ecran-1" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/espoir/espoir image 10.webp" alt="image ecran 1">
+                <img src="/public/img/espoir/espoir_image_10.webp" alt="American astronaut James Irvin standing next to the American flag on the Moon during the Apollo 15 mission, 11 August 1971">
                 <figcaption>American astronaut James Irvin standing next to the American flag on the Moon during the Apollo 15 mission, 11 August 1971</figcaption>
             </figure>
         </div>
         <div id="ecran-2" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/espoir/espoir image 11.webp"image ecran 2">
+                <img src="/public/img/espoir/espoir_image_11.webp" alt="International Space Station">
                 <figcaption>International Space Station</figcaption>
             </figure>
         </div>
         <div id="ecran-3" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/espoir/espoir image 12.webp" alt="image ecran 3">
+                <img src="/public/img/espoir/espoir_image_12.webp" alt="Launch of a space shuttle">
                 <figcaption>Launch of a space shuttle</figcaption>
             </figure>
         </div>
         <div id="ecran-4" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/espoir/espoir image 13.webp" alt="image ecran 4">
+                <img src="/public/img/espoir/espoir_image_13.webp" alt="The dog Laika on board the Russian spacecraft Sputnik II">
                 <figcaption>The dog Laika on board the Russian spacecraft Sputnik II</figcaption>
             </figure>
         </div>
@@ -111,37 +118,35 @@
 </div>
 
 
-<br>
-
 <h2>
     The beginning of the history of space exploration
 </h2>
 
-<p>
+<p class="espacetexte">
     The first space flight in history is an orbital space flight launched by the Soviet Union, the Soviet Sputnik 1 satellite was launched on 4 October 1957, the first satellite object sent into space.
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     Then on 3 November 1957, we have the first living being to have gone into space or more precisely the first living animal to have gone into space, it is the Russian dog Laïka, but unfortunately she dies after a few hours on board Sputnik 2 and the first living being to die in space but she will have achieved the first orbit in space.
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     The first space flight in history, where we have a Human inside is launched by the Soviet Union on April 12, 1961, it will be with the Soviet Yuri Gagarin for an orbital flight during the Vostok 1 mission.
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     The first space flight farthest from Earth launched by the United States on 21 July 1969 was the Apollo 11 mission, carried out by Neil Armstrong and Buzz Aldrin, and on this mission it was man's first steps on the Moon.
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     These are the 4 most important events to remember when talking about space exploration because we have the first object, the first living being, the first human and the first humans to have done the first exploits in space exploration.
 </p>
-<img src="/public/img/espoir/espoir image 26.webp">
-<figcaption>A space shuttle</figcaption>
+<img src="/public/img/espoir/espoir_image_26.webp" alt="A space shuttle">
+<p class="description2">A space shuttle</p>
 <h2>
     Why is marked me ?
 </h2>
@@ -150,14 +155,14 @@
 </p>
 
 <footer class="footer">
-    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp"></a>
+    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp" alt="LOGO_MMI"></a>
     <h4 class="mentionslegales"> Legal information</h4>
     <p class="mentions">Project carried out as part of</p> <p class="mentions"> an educational exercise in <a href="http://mmimontbeliard.com/">the department MMI of Montbéliard</a>
     </p>
     <h4 class="mecontacter"> Contact me</h4>
     <p class="contacter">Kubilay YARDIMLI C2 </p> <p class="contacter"><a href="mailto:kubilay.yardimli@gmail.com">kubilay.yardimli@gmail.com</a>
     </p>
-    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram (2).svg"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter (1).svg"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin (1).svg"></a>
+    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram.svg" alt="logo instagram"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter.svg" alt="logo twitter"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin.svg" alt="logo_linkedin"></a>
       
     <hr>
     <a href="/index.html"><p class="langue">FR</p></a>  <a href="/en/index_en.html"><p class="langue">EN</p></a>

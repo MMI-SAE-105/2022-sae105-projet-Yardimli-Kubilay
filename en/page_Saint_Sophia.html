@@ -12,26 +12,26 @@
   </head>
   <body>
     <header class="header">
-      <button aria-controle="mainNav"
-      @click="menuIsOpen = ! menuIsOpen"
-      class="header_menuBtn";
-      >
-      <img src="/public/img/logo/menu.webp">
-      </button>
-      <a href="/en/index_en.html"><h1 class=titre> PAST LIFE</h1></a>
-      <nav 
-        id="mainNav"
-        x-show="menuIsOpen"
-        x-transition.duration.650ms
-        class="menu"
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn";
         >
-        <ul>
-            <a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a>
+        <img src="/public/img/logo/menu.webp" alt="menu bouton">
+        </button>
+        <a href="/en/index_en.html"><h1 class=titre> PAST LIFE</h1></a>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
   
             <li><a href="/en/index_en.html">Home page</a></li>
-            <p class="ligneb" class=titre2>The articles</p>
+            <li class="ligneb titre2">The articles</li>
             <li><a href="/en/page_Saint_Sophia.html">Saint Sophia</a></li>
-            <li><a href="/en/page_Attack on Titans.html">Attack on Titans</a></li>
+            <li><a href="/en/page_Attack_on_Titans.html">Attack on Titans</a></li>
             <li><a href="/en/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
             <li><a href="/en/page_Interstellar.html">Interstellar</a></li>
             <li><a href="/en/page_Space_Exploration.html">Space Exploration</a></li>
@@ -46,52 +46,59 @@
 <h1>
     Saint Sophia
 </h1>
-<h2>The MONUMENT that left <br>its mark on MANY people
-   </h2>
-<img class="ayasofiahome" src="/public/img/lieu/lieu image 1.webp">
-<figcaption class="caption">Saint Sophia or Aya Sofia - Istanbul</figcaption>
-<br>
 <h2>
-    What is <br> Saint Sophia ?
+    The MONUMENT that left  
 </h2>
-<p>
+<h2>
+    its mark on MANY people
+</h2>
+<img class="ayasofiahome" src="/public/img/lieu/lieu_image_1.webp" alt="Saint Sophia or Aya Sofia - Istanbul">
+<p class="description1">Saint Sophia or Aya Sofia - Istanbul</p>
+
+<h2>
+    What is 
+</h2>
+<h2> 
+    Saint Sophia ?
+</h2>
+<p class="espacetexte">
     Saint Sophia is undoubtedly the most famous monument in Istanbul, it is currently a mosque but formerly a Christian Basilica.
 The name of the mosque comes from the Greek Hagia Sophia which means "holy wisdom", but with the passing of time and the Turkish language today Hagia Sophia is called Ayasofya. It is an important monument for both Muslims and Christians.
 </p>
-<br>
-<p>
+
+<p class="espacetexte">
     Saint Sophia is an ancient Christian basilica founded at the time of Constantinople, more precisely in the 4th century, but rebuilt several times following several incidents. The one we know today is much bigger than the one before, it was rebuilt in the 6th century. But in the time of Sultan Mehmed II (15th century), Hagia Sophia was transformed into a mosque.  
 </p>
-<br>
-<p>
+
+<p class="espacetexte">
     Saint Sophia is a strong symbol of the power of Byzantium, but it is also a perfect representation of Byzantine art and architecture through its structure and mosaics, and a perfect representation of the Ottoman art and architecture that transformed it completely.
 Hagia Sophia is located in the historical district of Istanbul, Sultanahmet, on the European side of Istanbul.
 </p>
-<br> <img class="flechecourbe" src="/public/img/logo/120914.png">
+<img class="flechecourbe" src="/public/img/logo/120914.png" alt="right_curve_arrow">
 
 <div class="carrousel" x-data="{}">
     <div class="carrousel_parent-ecrans">
         <div id="ecran-1" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/lieu/lieu image 10.webp" alt="image ecran 1">
+                <img src="/public/img/lieu/lieu_image_10.webp" alt="Istanbul, Saint Sophia picture by Pascal Sébah, around 1870">
                 <figcaption>Istanbul, Saint Sophia picture by Pascal Sébah, around 1870</figcaption>
             </figure>
         </div>
         <div id="ecran-2" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/lieu/lieu image 11.webp" alt="image ecran 2">
+                <img src="/public/img/lieu/lieu_image_11.webp" alt="Istanbul, Saint Sophia around 1854">
                 <figcaption>Istanbul, Saint Sophia around 1854</figcaption>
             </figure>
         </div>
         <div id="ecran-3" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/lieu/lieu ayasofya-2.jpeg" alt="image ecran 3">
+                <img src="/public/img/lieu/lieu_ayasofya-2.jpeg" alt="Istanbul, Saint Sophia">
                 <figcaption>Istanbul, Saint Sophia</figcaption>
             </figure>
         </div>
         <div id="ecran-4" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/lieu/lieu images.jpeg" alt="image ecran 4">
+                <img src="/public/img/lieu/lieu_images.jpeg" alt="Istanbul, Saint Sophia 1900">
                 <figcaption>Istanbul, Saint Sophia 1900</figcaption>
             </figure>
         </div>
@@ -99,36 +106,35 @@ Hagia Sophia is located in the historical district of Istanbul, Sultanahmet, on 
 </div>
 
 
-<br>
+
 
 <h2>
     We'll look at its history 
 </h2>
 
-<p>
+<p class="espacetexte">
     The construction of Hagia Sophia began in 532, at the request of Emperor Justinian. 
 The emperor appointed the physicist Isidore of Miletus and the mathematician Anthemios of Tralles to supervise the construction of the basilica, which was built on the site of an ancient Greek temple.
 </p>
-<br>
 
-<p>
+<p class="espacetexte">
     The materials of Hagia Sophia are not ordinary, as they have a varied origin. The stones come from a quarry in Greece, more precisely the stones of an ancient Greek city. 
 </p>
-<br>
 
-<p>
+<p class="espacetexte">
     For information, the pillars of the Temple of Artemis (one of the wonders of the ancient world) currently located in Ephesus, Turkey (540km from Istanbul) were used for the construction of Hagia Sophia. The basilica was built in 5 years, and it is estimated that more than 10,000 workers were involved in its construction.
 </p>
-<br>
 
-<p>
+<p class="espacetexte">
     Hagia Sophia represents Byzantine and Ottoman craftsmanship, art, and architecture.
 All the architecture such as the mosaics, the dome and the columns are still today a reference of Byzantine architecture and art.
 The architecture and style of Hagia Sophia has an important worldwide influence, not only in the architecture of the Eastern Orthodox Church, but also in the architecture of Catholic churches and some mosques.
 </p>
-<br>
-<img class="Ayasofya6" src="/public/img/lieu/lieu image 14.webp">
-<figcaption class="caption">Interior of Saint Sophia </figcaption>
+
+
+
+<img class="Ayasofya6" src="/public/img/lieu/lieu_image_14.webp" alt="Interior of Saint Sophia">
+<p class="description2">Interior of Saint Sophia </p>
 <h2>
     Why is marked me ?
 </h2>
@@ -137,14 +143,14 @@ The architecture and style of Hagia Sophia has an important worldwide influence,
 </p>
 
 <footer class="footer">
-    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp"></a>
+    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp" alt="LOGO_MMI"></a>
     <h4 class="mentionslegales"> Legal information</h4>
     <p class="mentions">Project carried out as part of</p> <p class="mentions"> an educational exercise in <a href="http://mmimontbeliard.com/">the department MMI of Montbéliard</a>
     </p>
     <h4 class="mecontacter"> Contact me</h4>
     <p class="contacter">Kubilay YARDIMLI C2 </p> <p class="contacter"><a href="mailto:kubilay.yardimli@gmail.com">kubilay.yardimli@gmail.com</a>
     </p>
-    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram (2).svg"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter (1).svg"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin (1).svg"></a>
+    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram.svg" alt="logo instagram"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter.svg" alt="logo twitter"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin.svg" alt="logo_linkedin"></a>
       
     <hr>
     <a href="/index.html"><p class="langue">FR</p></a>  <a href="/en/index_en.html"><p class="langue">EN</p></a>

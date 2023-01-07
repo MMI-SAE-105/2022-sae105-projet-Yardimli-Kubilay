@@ -319,9 +319,6 @@ p {
   text-align: center;
   font-size: 17px;
 }
-.caption {
-  text-align: center;
-}
 .videomicrott {
   width: 350px;
   margin: 0 auto;
@@ -343,4 +340,8 @@ p {
 }
 .titreh2 {
   margin: 0px;
+}
+figcaption {
+  margin-left: 10px;
+  margin-right: 10px;
 }

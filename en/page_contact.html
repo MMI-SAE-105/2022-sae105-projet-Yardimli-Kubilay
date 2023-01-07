@@ -16,7 +16,7 @@
       @click="menuIsOpen = ! menuIsOpen"
       class="header_menuBtn";
       >
-      <img src="/public/img/logo/menu.webp">
+      <img src="/public/img/logo/menu.webp" alt="menu bouton">
       </button>
       <a href="/en/index_en.html"><h1 class=titre> PAST LIFE</h1></a>
       <nav 
@@ -26,12 +26,12 @@
         class="menu"
         >
         <ul>
-          <a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
 
           <li><a href="/en/index_en.html">Home page</a></li>
-          <p class="ligneb" class=titre2>The articles</p>
+          <li class="ligneb titre2">The articles</li>
           <li><a href="/en/page_Saint_Sophia.html">Saint Sophia</a></li>
-          <li><a href="/en/page_Attack on Titans.html">Attack on Titans</a></li>
+          <li><a href="/en/page_Attack_on_Titans.html">Attack on Titans</a></li>
           <li><a href="/en/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
           <li><a href="/en/page_Interstellar.html">Interstellar</a></li>
           <li><a href="/en/page_Space_Exploration.html">Space Exploration</a></li>
@@ -46,57 +46,60 @@
 <h1>
   About me
 </h1>
-<br>
 
-<p class="presentation">
-    I'm Kubilay Yardimli, 1st year student of MMI (Multimedia and Internet) in Montbéliard. <br>
-
-<br> I am passionate about graphic design and audiovisual. Having the opportunity to create a website is an opportunity to gain new experiences! <br>
-
-<br> I let you visit my website!
+<div class="presentation">
+<p>
+    I'm Kubilay Yardimli, 1st year student of MMI (Multimedia and Internet) in Montbéliard.
+  </p>
+  <p>
+ I am passionate about graphic design and audiovisual. Having the opportunity to create a website is an opportunity to gain new experiences! <br>
 </p>
-
+<p>
+I let you visit my website!
+</p>
+</div>
 
 <h1>
   Contact
 </h1>
 
 <form class="formulaire" action="#">
-<div> <img class="logo_contact" src="/public/img/logo/logocontacte.webp">
-    <label class="texte_contacte" for="Prénom">First name</label><br>
-    <br><input class="rectangle_contacte" type="text" name="Prénom" id="Prénom">
+ <img class="logo_contact" src="/public/img/logo/logocontacte.webp" alt="logo_contact">
+ <div class="espacecontact">
+    <label class="texte_contacte" for="Prénom">First name</label>
+    <input class="rectangle_contacte" type="text" name="Prénom" id="Prénom">
   </div>
 
- <br> <div>
-    <label class="texte_contacte" for="Nom">Last name</label><br>
-    <br><input class="rectangle_contacte" type="text" name="Nom" id="Nom">
+  <div class="espacecontact">
+    <label class="texte_contacte" for="Nom">Last name</label>
+    <input class="rectangle_contacte" type="text" name="Nom" id="Nom">
   </div>
 
- <br> <div>
-    <label class="texte_contacte" for="E-mail">E-mail</label><br>
-    <br><input class="rectangle_contacte" type="text" name="E-mail" id="E-mail">
+  <div class="espacecontact">
+    <label class="texte_contacte" for="E-mail">E-mail</label>
+  <input class="rectangle_contacte" type="text" name="E-mail" id="E-mail">
   </div>
 
-<br> <div>
-    <label class="texte_contacte" for="message">Message</label><br>
-    <br><textarea class="rectangle_contacte" rows="5" name="message" id="message"></textarea>
+  <div class="espacecontact">
+    <label class="texte_contacte" for="message">Message</label>
+    <textarea class="rectangle_contacte" rows="5" name="message" id="message"></textarea>
   </div>
 
-<br><button class="bouton_contacte_envoyer" type="Envoyer">Send</button>
+<button class="bouton_contacte_envoyer" type="submit">Send</button>
 
-</form><br><br>
+</form>
 
 
 
 <footer class="footer">
-  <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp"></a>
+  <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp" alt="LOGO_MMI"></a>
   <h4 class="mentionslegales"> Legal information</h4>
   <p class="mentions">Project carried out as part of</p> <p class="mentions"> an educational exercise in <a href="http://mmimontbeliard.com/">the department MMI of Montbéliard</a>
   </p>
   <h4 class="mecontacter"> Contact me</h4>
   <p class="contacter">Kubilay YARDIMLI C2 </p> <p class="contacter"><a href="mailto:kubilay.yardimli@gmail.com">kubilay.yardimli@gmail.com</a>
   </p>
-  <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram (2).svg"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter (1).svg"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin (1).svg"></a>
+  <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram.svg" alt="logo instagram"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter.svg" alt="logo twitter"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin.svg" alt="logo_linkedin"></a>
     
   <hr>
   <a href="/index.html"><p class="langue">FR</p></a>  <a href="/en/index_en.html"><p class="langue">EN</p></a>

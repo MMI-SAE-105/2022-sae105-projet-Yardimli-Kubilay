@@ -12,26 +12,26 @@
   </head>
   <body>
     <header class="header">
-      <button aria-controle="mainNav"
-      @click="menuIsOpen = ! menuIsOpen"
-      class="header_menuBtn";
-      >
-      <img src="/public/img/logo/menu.webp">
-      </button>
-      <a href="/en/index_en.html"><h1 class=titre> PAST LIFE</h1></a>
-      <nav 
-        id="mainNav"
-        x-show="menuIsOpen"
-        x-transition.duration.650ms
-        class="menu"
+        <button aria-controle="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn";
         >
-        <ul>
-            <a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a>
+        <img src="/public/img/logo/menu.webp" alt="menu bouton">
+        </button>
+        <a href="/en/index_en.html"><h1 class=titre> PAST LIFE</h1></a>
+        <nav 
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.650ms
+          class="menu"
+          >
+          <ul>
+            <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
   
             <li><a href="/en/index_en.html">Home page</a></li>
-            <p class="ligneb" class=titre2>The articles</p>
+            <li class="ligneb titre2">The articles</li>
             <li><a href="/en/page_Saint_Sophia.html">Saint Sophia</a></li>
-            <li><a href="/en/page_Attack on Titans.html">Attack on Titans</a></li>
+            <li><a href="/en/page_Attack_on_Titans.html">Attack on Titans</a></li>
             <li><a href="/en/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
             <li><a href="/en/page_Interstellar.html">Interstellar</a></li>
             <li><a href="/en/page_Space_Exploration.html">Space Exploration</a></li>
@@ -47,123 +47,135 @@
     Attack of the Titans
 </h1>
 <h2>With a RICH and apocalyptic universe</h2>
-<img class="livrehome" src="/public/img/livre/livre image 2.webp">
-<figcaption class="caption">Attack of the Titans, Volume 1</figcaption>
-<br>
+<img class="livrehome" src="/public/img/livre/livre_image_2.webp" alt="Attack of the Titans, Volume 1">
+<p class="description1">Attack of the Titans, Volume 1</p>
+
 <h2>
-    What is <br> Attack of the Titans ?
+    What is
+</h2>
+<h2>
+    Attack of the Titans ?
 </h2>
 <p>
     Attack on Titans ("Shingeki no Kyojin" in Japanese) is a shonen manga on the themes of apocalypse and military with action, fantasy, horror, mystery, tragedy and thriller. 
 </p>
 <p>
     Created by Hajime Isayama. It is prepublished between September 2009 and April 2021 in 34 volumes and published by the monthly Bessatsu Shonen Magazine by Kodansha in Japan and published in France by PIKA. 
-<br>
-<br>
-<img src="/public/img/livre/livre Attack-on-Titan-Mangas-900x632-removebg-preview 1.webp">
-<figcaption">Attack of the Titans, volumes 1 to 11 in Japanese</figcaption>
-<br>
+</p>
+<img src="/public/img/livre/Attaque_des_Titans_tome_1_à_11_en_Japonais.webp" alt="Attaque_des_Titans_tome_1_à_11_en_Japonais">
+<p class="description2">Attack of the Titans, volumes 1 to 11 in Japanese</p>
+
 
 <h2>
     The Synopsis
 </h2>
 
-<p>
+<p class="espacetexte">
     About a hundred years ago, the Titans almost completely wiped out humanity. The Titans, who are usually several metres tall, do not seem to have any trace of intelligence and eat humans for pleasure, not for food. 
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     The few humans who have resisted the massacre are a little over a million strong and have done so by retreating into a territory surrounded by several walls that are so high that not even the largest of Titans can see over them. The fortress city is made up of three walls, the one in the middle is the Sina Wall, the second is the Pink Wall and finally the biggest of the three walls is the Maria Wall.
 </p>
-<br>
-<p>
+
+<p class="espacetexte">
     As the story unfolds, the young Eren and his sister Mikasa, will witness the death of their mother devoured by a titan, Eren has only one dream: to enter the elite corps in charge of discovering the origin of the titans, and annihilate them to the last one...
 </p>
 
-<img class="flechecourbe" src="/public/img/logo/120914.png">
+<img class="flechecourbe" src="/public/img/logo/120914.png" alt="right_curve_arrow">
 
 <div class="carrousel" x-data="{}">
     <div class="carrousel_parent-ecrans">
         <div id="ecran-1" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/livre/livre image 17.webp" alt="image ecran 1">
+                <img src="/public/img/livre/livre_image_17.webp" alt="Attack of the Titans, extract from volume 11">
                 <figcaption>Attack of the Titans, extract from volume 1</figcaption>
             </figure>
         </div>
         <div id="ecran-2" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/livre/livre image 18.webp" alt="image ecran 2">
+                <img src="/public/img/livre/livre_image_18.webp" alt="Attack of the Titans, extract from volume 1">
                 <figcaption>Attack of the Titans, extract from volume 1</figcaption>
             </figure>
         </div>
         <div id="ecran-3" class="carrousel_ecran">
             <figure>
-                <img src="/public/img/livre/livre image 19.webp" alt="image ecran 3">
+                <img src="/public/img/livre/livre_image_19.webp" alt="Attack of the Titans, from the manga">
                 <figcaption>Attack of the Titans, from the manga</figcaption>
             </figure>
         </div>
         <div id="ecran-4" class="carrousel_ecran">
             <figure>
-                <img class="livrehome" src="/public/img/livre/livre image 20.webp" alt="image ecran 4">
+                <img class="livrehome" src="/public/img/livre/livre_image_20.webp" alt="Attack of the Titans, extract from volume 1">
                 <figcaption>Attack of the Titans, extract from volume 1</figcaption>
             </figure>
         </div>
     </div>
 </div>
 
-<br>
+
 
 <h2>
     More detailed presentation of the book
 </h2>
 
-<p>
+<p class="espacetexte">
     Attack of the Titans is a work that lasted 11 years and is a worldwide success because it is now one of the 15 best-selling manga, which represents about 110 million copies that have been sold since its first volume worldwide.
 Like many successful manga, Attack of the Titans has seen numerous adaptations and spin-offs.
 </p>
-<br>
 
-<p>
+
+<p class="espacetexte">
     In terms of adaptation there is anime. Because often successful manga have their animations adapted to please the public. The anime Attack of the Titans is still being released. The first episode was released on 7 April 2013.
 </p>
-<br>
-<p>
+
+<p class="espacetexte">
     There have been many derivative objects of the work such as video games, plush toys, figurines, stickers. Derivative objects are part of the world of manga because they keep the work alive outside the book.
 </p>
-<br>
-<h4> 
+
+
+
+<h4 class="titreh4">
     There were 5 spin-offs in total that were released :
 </h4>
-<p>
--   The first was Attack of the Titans: Junior High School, allowing us to follow the characters of the series in junior high school. Published from 2013 to 2016, it was completed in 11 volumes.<br>
-<br>
--   The second is the longest, Attack of the Titans: Before the Fall takes us back in time to a time when the three-dimensional maneuvering device was not perfected. Published from 2013 to 2019 it is completed in 17 volumes.<br>
-<br>
--   Published in 2014, Attack of the Titans: Birth of Livai tells the story of the famous Livai Ackerman. Finished in 2 volumes and adapted into some episodes in anime.<br>
-<br>
--   Sungeki no Kyojin is the only spin-off not to have been published in France. It totals two volumes published in August 2014 and April 2015.<br>
-<br>
--   finally Attack of the Titans: Lost Girls also totals two volumes published in 2016, one centred on Annie Leonhart, the other on Mikasa Ackerman.<br>
+<p class="espacetexte">
+-   The first was Attack of the Titans: Junior High School, allowing us to follow the characters of the series in junior high school. Published from 2013 to 2016, it was completed in 11 volumes.
 </p>
-<br>
-<h4>    there was shortly after the publication of the attack of the titans, lights novels, they are Japanese novels. There were 3 in total, 2 of which were later adapted into manga :
-</h4>
-<p>
--   Before the Fall first, released between December 2011 and June 2012.<br>
-<br>
--	Lost Girls is the last of the three lights novels, released in December 2014.<br>
-<br>
--	Attack of the Titans: Hope of the City was completed in 2 volumes published in August 2014 and June 2015.<br>
+<p class="espacetexte">
+-   The second is the longest, Attack of the Titans: Before the Fall takes us back in time to a time when the three-dimensional maneuvering device was not perfected. Published from 2013 to 2019 it is completed in 17 volumes.
+</p>
+<p class="espacetexte">
+-   Published in 2014, Attack of the Titans: Birth of Livai tells the story of the famous Livai Ackerman. Finished in 2 volumes and adapted into some episodes in anime.
+</p>
+<p class="espacetexte">
+-   Sungeki no Kyojin is the only spin-off not to have been published in France. It totals two volumes published in August 2014 and April 2015.
+</p>
+<p class="espacetexte">
+-   finally Attack of the Titans: Lost Girls also totals two volumes published in 2016, one centred on Annie Leonhart, the other on Mikasa Ackerman.
+</p>
 
+
+<h4 class="titreh4">
+        there was shortly after the publication of the attack of the titans, lights novels, they are Japanese novels. There were 3 in total, 2 of which were later adapted into manga :
+</h4>
+<p class="espacetexte">
+-   Before the Fall first, released between December 2011 and June 2012.
 </p>
-<br>
-<p>
+<p class="espacetexte">
+-	Lost Girls is the last of the three lights novels, released in December 2014.
+</p>
+<p class="espacetexte">
+-	Attack of the Titans: Hope of the City was completed in 2 volumes published in August 2014 and June 2015.
+</p>
+
+
+<p class="espacetexte">
     It was also in the United States that an anthology was published in 2016, gathering several stories drawn by big names in comics. It was published in France in October 2017 but has now been discontinued.
 </p>
 
-<img src="/public/img/livre/livre image 15.webp">
-<figcaption">Attack of the Titans, official opening cover Shinzou wo Sasageyo!</figcaption>
+<img src="/public/img/livre/livre_image_15.webp" alt=">Attack of the Titans, official opening cover Shinzou wo Sasageyo!">
+<p class="description2">Attack of the Titans, official opening cover Shinzou wo Sasageyo!</P>
 <h2>
     Why is marked me ?
 </h2>
@@ -172,14 +184,14 @@ Like many successful manga, Attack of the Titans has seen numerous adaptations a
 </p>
 
 <footer class="footer">
-    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp"></a>
+    <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp" alt="LOGO_MMI"></a>
     <h4 class="mentionslegales"> Legal information</h4>
     <p class="mentions">Project carried out as part of</p> <p class="mentions"> an educational exercise in <a href="http://mmimontbeliard.com/">the department MMI of Montbéliard</a>
     </p>
     <h4 class="mecontacter"> Contact me</h4>
     <p class="contacter">Kubilay YARDIMLI C2 </p> <p class="contacter"><a href="mailto:kubilay.yardimli@gmail.com">kubilay.yardimli@gmail.com</a>
     </p>
-    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram (2).svg"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter (1).svg"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin (1).svg"></a>
+    <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram.svg" alt="logo instagram"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter.svg" alt="logo twitter"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin.svg" alt="logo_linkedin"></a>
       
     <hr>
     <a href="/index.html"><p class="langue">FR</p></a>  <a href="/en/index_en.html"><p class="langue">EN</p></a>
