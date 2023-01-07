@@ -14,9 +14,9 @@
     <header class="header">
       <button aria-controle="mainNav"
       @click="menuIsOpen = ! menuIsOpen"
-      class="header_menuBtn";
+      class="header_menuBtn"
       >
-      <img src="/public/img/logo/menu.webp">
+      <img src="/public/img/logo/menu.webp" alt="menu bouton">
       </button>
       <a href="/index.html"><h1 class=titre> PAST LIFE</h1></a>
       <nav 
@@ -26,10 +26,10 @@
         class="menu"
         >
         <ul>
-          <a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
 
           <li><a href="/index.html">Page d’accueil</a></li>
-          <li class="ligneb" class=titre2>Les articles</li>
+          <li class="ligneb titre2">Les articles</li>
           <li><a href="/fr/page_Sainte-Sophie.html">Sainte-Sophie</a></li>
           <li><a href="/fr/page_Attaque_des_titans.html">Attaque des Titans</a></li>
           <li><a href="/fr/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
@@ -38,7 +38,7 @@
           <li><a href="/fr/page_Réchauffement_climatique.html">Réchauffement Climatique</a></li>
           <li><a href="/fr/page_Game_of_thrones.html">Game of Thrones</a></li>
           <li class="ligneb"><a href="/fr/page_en_savoir.html" >En savoir +</a></li>
-          <li class="ligneb"><a href="/fr/page_contact.html">À propos  / Me contact</a></li>
+          <li class="ligneb"><a href="/fr/page_contact.html">À propos  / Me contacter</a></li>
           <li class="ligneb"><a href="/fr/page_autres_projets.html">D’autres projets</a></li>
         </ul>
       </nav>
@@ -46,57 +46,60 @@
 <h1>
     À propos de moi
 </h1>
-<br>
 
-<p class="presentation">
-    Je me présente Kubilay Yardimli en 1ère année de MMI (Métiers du Multimédia et d’Internet) à Montbéliard. <br>
-
-<br> Passionné de graphisme et d’audiovisuel. Avoir l’occasion de créer un site web est une opportunité d’acquérir de nouvelles expériences ! <br>
-
-<br> Je vous laisse donc visiter mon site !
+<div class="presentation">
+<p>
+    Je me présente Kubilay Yardimli en 1ère année de MMI (Métiers du Multimédia et d’Internet) à Montbéliard.
+  </p>
+  <p>
+    Passionné de graphisme et d’audiovisuel. Avoir l’occasion de créer un site web est une opportunité d’acquérir de nouvelles expériences !
+  </p>
+  <p>
+    Je vous laisse donc visiter mon site !
 </p>
-
+</div>
 
 <h1>
     Me Contacter
 </h1>
 
 <form class="formulaire" action="#">
-<div> <img class="logo_contact" src="/public/img/logo/logocontacte.webp">
-    <label class="texte_contacte" for="Prénom">Prénom</label><br>
-    <br><input class="rectangle_contacte" type="text" name="Prénom" id="Prénom">
+  <img class="logo_contact" src="/public/img/logo/logocontacte.webp" alt="logo_contact">
+<div class="espacecontact">
+    <label class="texte_contacte" for="Prénom">Prénom</label>
+   <input class="rectangle_contacte" type="text" name="Prénom" id="Prénom">
   </div>
 
- <br> <div>
-    <label class="texte_contacte" for="Nom">Nom</label><br>
-    <br><input class="rectangle_contacte" type="text" name="Nom" id="Nom">
+<div class="espacecontact">
+    <label class="texte_contacte" for="Nom">Nom</label>
+    <input class="rectangle_contacte" type="text" name="Nom" id="Nom">
   </div>
 
- <br> <div>
-    <label class="texte_contacte" for="E-mail">E-mail</label><br>
-    <br><input class="rectangle_contacte" type="text" name="E-mail" id="E-mail">
+ <div class="espacecontact">
+    <label class="texte_contacte" for="E-mail">E-mail</label>
+    <input class="rectangle_contacte" type="text" name="E-mail" id="E-mail">
   </div>
 
-<br> <div>
-    <label class="texte_contacte" for="message">Message</label><br>
-    <br><textarea class="rectangle_contacte" rows="5" name="message" id="message"></textarea>
+<div class="espacecontact">
+    <label class="texte_contacte" for="message">Message</label>
+   <textarea class="rectangle_contacte" rows="5" name="message" id="message"></textarea>
   </div>
 
-<br><button class="bouton_contacte_envoyer" type="Envoyer">Envoyer</button>
+<button class="bouton_contacte_envoyer" type="submit">Envoyer</button>
 
-</form><br><br>
+</form>
 
 
 
 <footer class="footer">
-  <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp"></a>
+  <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp" alt="LOGO_MMI"></a>
   <h4 class="mentionslegales"> Mentions Légales</h4>
   <p class="mentions">Projet réalisé dans le cadre d’un exercice</p> <p class="mentions"> pédagogique au <a href="http://mmimontbeliard.com/">département MMi de Montbéliard</a>
   </p>
   <h4 class="mecontacter"> Me contacter</h4>
   <p class="contacter">Kubilay YARDIMLI C2 </p> <p class="contacter"><a href="mailto:kubilay.yardimli@gmail.com">kubilay.yardimli@gmail.com</a>
   </p>
-  <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram (2).svg"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter (1).svg"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin (1).svg"></a>
+  <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram.svg" alt="logo instagram"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter.svg " alt="logo twitter"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin.svg" alt="logo_linkedin"></a>
     
   <hr>
   <a href="/index.html"><p class="langue">FR</p></a>  <a href="/en/index_en.html"><p class="langue">EN</p></a>

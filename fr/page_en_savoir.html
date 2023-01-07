@@ -14,9 +14,9 @@
     <header class="header">
       <button aria-controle="mainNav"
       @click="menuIsOpen = ! menuIsOpen"
-      class="header_menuBtn";
+      class="header_menuBtn"
       >
-      <img src="/public/img/logo/menu.webp">
+      <img src="/public/img/logo/menu.webp" alt="menu bouton">
       </button>
       <a href="/index.html"><h1 class=titre> PAST LIFE</h1></a>
       <nav 
@@ -26,10 +26,10 @@
         class="menu"
         >
         <ul>
-          <a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a>
+          <li><a href="/index.html"><p class="langue2">FR</p></a>  <a href="/en/index_en.html"><p class="langue2">EN</p></a></li>
 
           <li><a href="/index.html">Page d’accueil</a></li>
-          <li class="ligneb" class=titre2>Les articles</li>
+          <li class="ligneb titre2">Les articles</li>
           <li><a href="/fr/page_Sainte-Sophie.html">Sainte-Sophie</a></li>
           <li><a href="/fr/page_Attaque_des_titans.html">Attaque des Titans</a></li>
           <li><a href="/fr/page_Shinzou_wo_Sasageyo.html">Shinzou wo Sasageyo</a></li>
@@ -38,7 +38,7 @@
           <li><a href="/fr/page_Réchauffement_climatique.html">Réchauffement Climatique</a></li>
           <li><a href="/fr/page_Game_of_thrones.html">Game of Thrones</a></li>
           <li class="ligneb"><a href="/fr/page_en_savoir.html" >En savoir +</a></li>
-          <li class="ligneb"><a href="/fr/page_contact.html">À propos  / Me contact</a></li>
+          <li class="ligneb"><a href="/fr/page_contact.html">À propos  / Me contacter</a></li>
           <li class="ligneb"><a href="/fr/page_autres_projets.html">D’autres projets</a></li>
         </ul>
       </nav>
@@ -46,16 +46,18 @@
 <h1>
    EN SAVOIR +
 </h1>
-<br>
 
-<H2>
-    Frises de lieux similaires<br>
 
- selon l’architecture <br>
-
+<h2 class="titreh2">
+    Frises de lieux similaires
+</h2>
+<h2 class="titreh2">
+ selon l’architecture 
+</h2>
+<h2 class="titreh2">
  byzantine
-</H2>
-<br><br>
+</h2>
+
 
 <p class="chiffreromain">
     IV <br> 300
@@ -76,136 +78,141 @@
 <div class="frise">
 <div class="imgfrise">
   <div class="datefrise">IVe siècle</div>
-  <img  src="/public/img/en savoir +/en savoir + image 27.webp">
+  <img  src="/public/img/ensavoirplus/en_savoir_PLUS_image_27.webp" alt="Turquie_Istanbul_Basilique_Sainte-Irène">
   Turquie Istanbul <br> Basilique <br> Sainte-Irène
 </div>
 <div class="imgfrise">
   <div class="datefrise">VIe siècle</div>
-  <img  src="/public/img/en savoir +/en savoir + image 28.webp">
+  <img  src="/public/img/ensavoirplus/en_savoir_PLUS_image_28.webp" alt="Italie_Ravenne_Basilique_Saint-Apollinaire_in_Classe">
   Italie Ravenne <br> Basilique <br> Saint-Apollinaire in Classe</div>
 <div class="imgfrise">
   <div class="datefrise">IXe siècle</div>
-  <img  src="/public/img/en savoir +/en savoir + image 29.webp">
+  <img  src="/public/img/ensavoirplus/en_savoir_PLUS_image_29.webp" alt="Italie_Venise_Basilique_Saint-Marc">
   Italie Venise <br> Basilique Saint-Marc</div>
 <div class="imgfrise">
   <div class="datefrise">XIe siècle</div>
-  <img  src="/public/img/en savoir +/en savoir + image 30.webp">
+  <img  src="/public/img/ensavoirplus/en_savoir_PLUS_image_30.webp" alt="Grèce_Dístomo_Monastère_Osios_Loukas">
   Grèce Dístomo <br> Monastère d'Osios Loukas</div>
 <div class="imgfrise">
   <div class="datefrise">XIe siècle</div>
-  <img  src="/public/img/en savoir +/en savoir + image 31.webp">
+  <img  src="/public/img/ensavoirplus/en_savoir_PLUS_image_31.webp" alt="Ukraine_Kiev_Cathédrale_Sainte-Sophie_de_Kiev">
   Ukraine Kiev <br> Cathédrale <br> Sainte-Sophie de Kiev</div>
 <div class="flechefrise">      </div>
 </div>
-<br>
-<br>
+
 
 <hr>
-<H2>
-    Présentation de la <br> filmographie complète de <br> Christopher Nolan
-</H2>
+<h2 class="titreh2">
+    Présentation de la 
+  </h2>
+  <h2 class="titreh2">
+  filmographie complète de
+</h2>
+<h2 class="titreh2">
+  Christopher Nolan
+</h2>
 
-<br> <img class="flechecourbe" src="/public/img/logo/120914.png"> <br>
-<br>
+
+<img class="flechecourbe" src="/public/img/logo/120914.png" alt="fleche_courber_droite">
+
 <div class="carrousel" x-data="{}">
   <div class="carrousel_parent-ecrans">
       <div id="ecran-1" class="carrousel_ecran">
           <figure>
-            <figcaption class="titrefilmographie">Following</figcaption>
-              <img class="imgfilmographie" src="/public/img/en savoir +/en savoir + image 33.webp" alt="image ecran 1">
-              <figcaption class="texte1filmographie">Ce film est de genre thriller en noir et blanc</figcaption>
-              <figcaption class="texte2filmograpgie">Following a été réalisé en 1998 à Londres, avec un petit budget de 6 000$ et fait 48 482$ aux box-office. Ce qui marque son premier long métrage.</figcaption>
+            <h4 class="titrefilmographie">Following</h4>
+              <img class="imgfilmographie" src="/public/img/ensavoirplus/en_savoir_PLUS_image_33.webp" alt="Affiche_du_film_Following">
+              <figcaption> <p class="texte1filmographie"> Ce film est de genre thriller en noir et blanc.</p>
+               <p class="texte2filmograpgie"> Following a été réalisé en 1998 à Londres, avec un petit budget de 6 000$ et fait 48 482$ aux box-office. Ce qui marque son premier long métrage.</p></figcaption>
           </figure>
       </div>
       <div id="ecran-2" class="carrousel_ecran">
           <figure>
-            <figcaption class="titrefilmographie">Memento</figcaption>
-              <img class="imgfilmographie" src="/public/img/en savoir +/en savoir + image 34.webp" alt="image ecran 2">
-              <figcaption class="texte1filmographie">Ce film est de genre Thriller</figcaption>
-              <figcaption class="texte2filmograpgie">Memento a été réalisé en 2000 au États-Unis, avec un  budget de 9 millions dollars et fait 40 millions de dollars aux box-office.</figcaption>
+            <h4 class="titrefilmographie">Memento</h4>
+              <img class="imgfilmographie" src="/public/img/ensavoirplus/en_savoir_PLUS_image_35.webp" alt="Affiche_du_film_Memento">
+              <figcaption> <p class="texte1filmographie">Ce film est de genre Thriller</p>
+              <p class="texte2filmograpgie">Memento a été réalisé en 2000 au États-Unis, avec un  budget de 9 millions dollars et fait 40 millions de dollars aux box-office. </p></figcaption>
           </figure>
       </div>
       <div id="ecran-3" class="carrousel_ecran">
           <figure>
-            <figcaption class="titrefilmographie">Insomnia</figcaption>
-              <img class="imgfilmographie" src="/public/img/en savoir +/en savoir + image 35.webp" alt="image ecran 3">
-              <figcaption class="texte1filmographie">Ce film est de genre  Policier et Thriller</figcaption>
-              <figcaption class="texte2filmograpgie">Insomnia a été réalisé en 2002 à Londres, avec un  budget de 46 millions dollars et fait 113,8 millions de dollars aux box-office.</figcaption>
+            <h4 class="titrefilmographie">Insomnia</h4>
+              <img class="imgfilmographie" src="/public/img/ensavoirplus/en_savoir_PLUS_image_34.webp" alt="Affiche du film Insomnia">
+              <figcaption> <p class="texte1filmographie">Ce film est de genre  Policier et Thriller</p>
+              <p class="texte2filmograpgie">Insomnia a été réalisé en 2002 à Londres, avec un  budget de 46 millions dollars et fait 113,8 millions de dollars aux box-office.</p></figcaption>
           </figure>
       </div>
       <div id="ecran-4" class="carrousel_ecran">
           <figure>
-            <figcaption class="titrefilmographie">Batman Begins</figcaption>
-              <img class="imgfilmographie" src="/public/img/en savoir +/en savoir + image 50.webp" alt="image ecran 4">
-              <figcaption class="texte1filmographie">Ce film est de genre super-héros, action, aventure, criminel et drame</figcaption>
-              <figcaption class="texte2filmograpgie">BATMAN BEGINs a été réalisé en 2005, avec un  budget de 150 millions dollars et fait 373,7 millions de dollars aux box-office.</figcaption>
+            <h4 class="titrefilmographie">Batman Begins</h4>
+              <img class="imgfilmographie" src="/public/img/ensavoirplus/en_savoir_PLUS_image_50.webp" alt="Affiche du film BATMAN BEGINS">
+              <figcaption> <p class="texte1filmographie">Ce film est de genre super-héros, action, aventure, criminel et drame</p>
+              <p class="texte2filmograpgie">BATMAN BEGINS a été réalisé en 2005, avec un  budget de 150 millions dollars et fait 373,7 millions de dollars aux box-office.</p></figcaption>
           </figure>
       </div>
       <div id="ecran-5" class="carrousel_ecran">
         <figure>
-          <figcaption class="titrefilmographie">Le Prestige</figcaption>
-            <img class="imgfilmographie" src="/public/img/en savoir +/en savoir + image 51.webp" alt="image ecran 5">
-            <figcaption class="texte1filmographie">Ce film est de genre Thriller</figcaption>
-            <figcaption class="texte2filmograpgie">Le Prestige a été réalisé en 2006, avec un  budget de 40 millions dollars et fait  109,7 millionsde dollars aux box-office.</figcaption>
+          <h4 class="titrefilmographie">Le Prestige</h4>
+            <img class="imgfilmographie" src="/public/img/ensavoirplus/en_savoir_PLUS_image_51.webp" alt="Affiche du film Le Prestige">
+            <figcaption> <p class="texte1filmographie">Ce film est de genre Thriller</p>
+            <p class="texte2filmograpgie">Le Prestige a été réalisé en 2006, avec un  budget de 40 millions dollars et fait  109,7 millionsde dollars aux box-office.</p></figcaption>
         </figure>
     </div>
     <div id="ecran-6" class="carrousel_ecran">
       <figure>
-        <figcaption class="titrefilmographie">The Dark Knight <br> Le Chevalier Noir</figcaption>
-          <img class="imgfilmographie" src="/public/img/en savoir +/en savoir + image 53.webp" alt="image ecran 6">
-          <figcaption class="texte1filmographie">Ce film est de genre super-héros, action, aventure, criminel et drame</figcaption>
-          <figcaption class="texte2filmograpgie">The Dark Knight, Le Chevalier Noir a été réalisé en 2008, avec un  budget de 185 millions dollars et fait 1,006 milliard de dollars aux box-office.</figcaption>
+        <h4 class="titrefilmographie">The Dark Knight</h4>
+          <img class="imgfilmographie" src="/public/img/ensavoirplus/en_savoir_PLUS_image_53.webp" alt="Affiche du film The Dark Knight">
+          <figcaption> <p class="texte1filmographie">Ce film est de genre super-héros, action, aventure, criminel et drame</p>
+          <p class="texte2filmograpgie">The Dark Knight, Le Chevalier Noir a été réalisé en 2008, avec un  budget de 185 millions dollars et fait 1,006 milliard de dollars aux box-office.</p></figcaption>
       </figure>
     </div>
     <div id="ecran-7" class="carrousel_ecran">
       <figure>
-        <figcaption class="titrefilmographie">Inception</figcaption>
-          <img class="imgfilmographie" src="/public/img/en savoir +/en savoir + image 54.webp" alt="image ecran 7">
-          <figcaption class="texte1filmographie">Ce film est de genre action, science-fiction, thriller, aventure, drame</figcaption>
-          <figcaption class="texte2filmograpgie">Inception a été réalisé en 2010, avec un  budget de 160 millions dollars et fait 836,8 millions de dollars aux box-office.</figcaption>
+        <h4 class="titrefilmographie">Inception</h4>
+          <img class="imgfilmographie" src="/public/img/ensavoirplus/en_savoir_PLUS_image_54.webp" alt="Affiche du film Inception">
+          <figcaption> <p class="texte1filmographie">Ce film est de genre action, science-fiction, thriller, aventure, drame</p>
+          <p class="texte2filmograpgie">Inception a été réalisé en 2010, avec un  budget de 160 millions dollars et fait 836,8 millions de dollars aux box-office.</p></figcaption>
       </figure>
     </div>
     <div id="ecran-8" class="carrousel_ecran">
       <figure>
-        <figcaption class="titrefilmographie">The Dark Knight Rises </figcaption>
-          <img class="imgfilmographie" src="/public/img/en savoir +/en savoir + image 55.webp" alt="image ecran 8">
-          <figcaption class="texte1filmographie">Ce film est de genre super-héros, action, aventure, criminel et drame</figcaption>
-          <figcaption class="texte2filmograpgie">The Dark Knight Rises a été réalisé en 2012, avec un  budget de 250 millions dollars et fait 1,081 milliard de dollars aux box-office.</figcaption>
+        <h4 class="titrefilmographie">The Dark Knight Rises </h4>
+          <img class="imgfilmographie" src="/public/img/ensavoirplus/en_savoir_PLUS_image_55.webp" alt="Affiche du film The Dark Knight Rises">
+          <figcaption> <p class="texte1filmographie">Ce film est de genre super-héros, action, aventure, criminel et drame</p>
+          <p class="texte2filmograpgie">The Dark Knight Rises a été réalisé en 2012, avec un  budget de 250 millions dollars et fait 1,081 milliard de dollars aux box-office.</p></figcaption>
       </figure>
     </div>
     <div id="ecran-9" class="carrousel_ecran">
       <figure>
-        <figcaption class="titrefilmographie">Interstellar</figcaption>
-          <img class="imgfilmographie" src="/public/img/en savoir +/en savoir + image 56.webp" alt="image ecran 9">
-          <figcaption class="texte1filmographie">Ce film est de genre science-fiction, aventure, film à énigme, drame</figcaption>
-          <figcaption class="texte2filmograpgie">Interstellar a été réalisé en 2014, avec un  budget de 165 millions dollars et fait 701,7 millions de dollars aux box-office.</figcaption>
+        <h4 class="titrefilmographie">Interstellar</h4>
+          <img class="imgfilmographie" src="/public/img/ensavoirplus/en_savoir_PLUS_image_56.webp" alt="Affiche du film Interstellar">
+          <figcaption> <p class="texte1filmographie">Ce film est de genre science-fiction, aventure, film à énigme, drame</p>
+          <p class="texte2filmograpgie">Interstellar a été réalisé en 2014, avec un  budget de 165 millions dollars et fait 701,7 millions de dollars aux box-office.</p></figcaption>
       </figure>
     </div>
     <div id="ecran-10" class="carrousel_ecran">
       <figure>
-        <figcaption class="titrefilmographie">Dunkerque</figcaption>
-          <img class="imgfilmographie" src="/public/img/en savoir +/en savoir + image 57.webp" alt="image ecran 10">
-          <figcaption class="texte1filmographie">Ce film est de genre Guerre, Historique, Drame</figcaption>
-          <figcaption class="texte2filmograpgie">Dunkerque a été réalisé en 2017, avec un  budget de 200 millions dollars et fait 527 millions de dollars aux box-office.</figcaption>
+        <h4 class="titrefilmographie">Dunkerque</h4>
+          <img class="imgfilmographie" src="/public/img/ensavoirplus/en_savoir_PLUS_image_57.webp" alt="Affiche du film Dunkerque">
+          <figcaption> <p class="texte1filmographie">Ce film est de genre Guerre, Historique, Drame</p>
+          <p class="texte2filmograpgie">Dunkerque a été réalisé en 2017, avec un  budget de 200 millions dollars et fait 527 millions de dollars aux box-office.</p></figcaption>
       </figure>
     </div>
     <div id="ecran-11" class="carrousel_ecran">
       <figure>
-        <figcaption class="titrefilmographie">Tenet</figcaption>
-          <img class="imgfilmographie" src="/public/img/en savoir +/en savoir + image 58.webp" alt="image ecran 11">
-          <figcaption class="texte1filmographie">Ce film est de genre 	science-fiction, action, thriller, espionnage</figcaption>
-          <figcaption class="texte2filmograpgie">Tenet a été réalisé en 2020, avec un  budget de 200 millions dollars et fait 365,3 millions de dollars aux box-office.</figcaption>
+        <h4 class="titrefilmographie">Tenet</h4>
+          <img class="imgfilmographie" src="/public/img/ensavoirplus/en_savoir_PLUS_image_58.webp" alt="Affiche du film Tenet">
+          <figcaption> <p class="texte1filmographie">Ce film est de genre 	science-fiction, action, thriller, espionnage</p>
+          <p class="texte2filmograpgie">Tenet a été réalisé en 2020, avec un  budget de 200 millions dollars et fait 365,3 millions de dollars aux box-office.</p></figcaption>
       </figure>
     </div>
   </div>
 </div>
-<br>
-<br>
+
 <hr>
 <h2>Mirco trottoir</h2>
 <p>Nous avons filmé un micro trottoir car c’était le bon moments de faire un petit récapitulatif de cette année alors nous avons demander a des passant dans les rues de montbéliard comment c’est passez-leur années 2022 et comment ils prévoyais 2023.</p>
 <video controls class="videomicrott">
-  <source src="/public/video/mirco trottoir.mp4" type="video/mp4">
+  <source src="/public/video/mirco_trottoir.mp4" type="video/mp4">
 </video>
 
 <hr>
@@ -228,7 +235,7 @@
   Une anthologie est un recueil de textes ou de morceaux choisis partageant les mêmes caractéristiques : thèmes, genres, styles, langues, origines géographiques, auteurs, etc. Un exemple littéraire ancien est l’Anthologie grecque.
 </p>
 <hr class="ligneglossaire">
-<br>
+
 
 <P class="lettreglossaire">
   B
@@ -240,7 +247,7 @@
   La biodiversité, c'est le tissu vivant de notre planète. Cela recouvre l'ensemble des milieux naturels et des formes de vie (plantes, animaux, champignons, bactéries, etc) et leurs interactions.Ce terme est composé du préfixe bio et du mot « diversité ».
 </p>
 <hr class="ligneglossaire">
-<br>
+
 
 <P class="lettreglossaire">
   C
@@ -259,7 +266,7 @@
   Comic est un terme utilisé aux États-Unis pour désigner les bandes dessinées. Le nom vient du mot anglais "comic" car les premières bandes dessinées publiées aux États-Unis étaient humoristiques. Cependant, dans le monde francophone, sa signification s'est limitée à faire spécifiquement référence aux bandes dessinées américaines.
 </p>
 <hr class="ligneglossaire">
-<br>
+
 
 <P class="lettreglossaire">
   H
@@ -271,7 +278,7 @@
   HBO est une chaîne de télévision payante américaine qui produit et diffuse entre autres des séries. Lancée le 8 novembre 1972, HBO fait partie du groupe Warner Bros. Discovery. Elle a plusieurs filiales comme HBO Films et est implantée dans plusieurs pays.
 </p>
 <hr class="ligneglossaire">
-<br>
+
 
 <P class="lettreglossaire">
   J
@@ -289,7 +296,7 @@
   La J-Rock est une abréviation de rock japonais.
 </p>
 <hr class="ligneglossaire">
-<br>
+
 
 <P class="lettreglossaire">
   L
@@ -301,7 +308,7 @@
   les light novel sont des romans japonais qui sont destiner à un publique de jeunes adultes.
 </p>
 <hr class="ligneglossaire">
-<br>
+
 
 <P class="lettreglossaire">
   N
@@ -319,7 +326,7 @@
   Dans un contexte artistique ou autre, une nomination est une sélection, avec quelques autres personnes, comme candidat à un prix, à une récompense ou à un autre honneur.
 </p>
 <hr class="ligneglossaire">
-<br>
+
 
 <P class="lettreglossaire">
   O
@@ -331,7 +338,7 @@
   Une orbite est la courbe fermée représentant la trajectoire que dessine, dans l'espace, un objet céleste sous l'effet de la gravitation et de forces d'inertie.
 </p>
 <hr class="ligneglossaire">
-<br>
+
 
 <P class="lettreglossaire">
   S
@@ -349,19 +356,19 @@
   Un spin off est une série dériver de l’œuvre originel, qui se concentre sur les personnages secondaires qui sont plus au moins proches des personnages principaux, ou sur l’univers de l’oeuvre.
 </p>
 <hr class="ligneglossaire">
-<br>
+
 
 
 
 <footer class="footer">
-  <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp"></a>
+  <a href="http://mmimontbeliard.com/"><img class="logommi" src="/public/img/logo/MMI_dut_small_purple.webp" alt="LOGO_MMI"></a>
   <h4 class="mentionslegales"> Mentions Légales</h4>
   <p class="mentions">Projet réalisé dans le cadre d’un exercice</p> <p class="mentions"> pédagogique au <a href="http://mmimontbeliard.com/">département MMi de Montbéliard</a>
   </p>
   <h4 class="mecontacter"> Me contacter</h4>
   <p class="contacter">Kubilay YARDIMLI C2 </p> <p class="contacter"><a href="mailto:kubilay.yardimli@gmail.com">kubilay.yardimli@gmail.com</a>
   </p>
-  <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram (2).svg"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter (1).svg"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin (1).svg"></a>
+  <a href="https://www.instagram.com/__kubilay66__/"><img class="insta" src="/public/img/logo/instagram.svg" alt="logo instagram"></a> <a href="https://twitter.com/kubilayyardimli"><img class="twitter" src="/public/img/logo/twitter.svg " alt="logo twitter"></a> <a href="https://www.linkedin.com/in/kubilay-yardimli-207618256/"><img class="linkedin" src="/public/img/logo/linkedin.svg" alt="logo_linkedin"></a>
     
   <hr>
   <a href="/index.html"><p class="langue">FR</p></a>  <a href="/en/index_en.html"><p class="langue">EN</p></a>

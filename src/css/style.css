@@ -139,11 +139,6 @@ img {
   top: 250px;
   background: #F0B27A;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 12px 17px;
-  gap: 10px;
   font-size: 17px;
 
 }
@@ -152,12 +147,17 @@ img {
   display: block;
   float: right;
   margin: 1%;
+  margin-bottom: 30px;
+}
+.espacecontact {
+  margin-top: 20px;
 }
 .bouton_contacte_envoyer {
   background: #161029;
   border: 1px solid #F0B27A;
   color: #FFFFFF;
   margin: 1%;
+  margin-top: 30px;
 }
 .formulaire {
   border: 2px solid #F0B27A;
@@ -175,6 +175,7 @@ img {
   box-shadow: inset 0px -16px 32px rgba(33, 34, 28, 0.05);
   border-radius: 4px;
   width: 313px;
+  margin-top: 20px;
 }
 .chiffreromain {
   display: inline-block;
@@ -240,7 +241,6 @@ img {
 .imgfrise img {
   display: block;
   width: 200px;
- 
 }
 .imgfilmographie {
   width: 80vw;
@@ -312,7 +312,7 @@ p {
   margin: 0 auto;
   display: block;
   width: 300px;
-  height: 130px;
+  height: 210px;
   left: 20px;
   top: 250px;
   background: #F0B27A;
@@ -340,4 +340,7 @@ p {
 }
 .description2 {
   margin-top: 0px;
+}
+.titreh2 {
+  margin: 0px;
 }
