@@ -6,7 +6,7 @@ body{
   margin: 0 auto;
   display: block;
   width: 300px;
-  height: 120px;
+  height: auto;
   left: 20px;
   top: 500px;
   background: #F0B27A;
@@ -134,7 +134,7 @@ img {
   margin: 0 auto;
   display: block;
   width: 300px;
-  height: 210px;
+  height: auto;
   left: 20px;
   top: 250px;
   background: #F0B27A;
@@ -297,9 +297,11 @@ img {
 }
 h1 {
   text-align: center;
+  font-family: 'OPTIBodoni-Antiqua';
 }
 h2 {
   text-align: center;
+  font-family: 'OPTIBodoni-Antiqua';
 }
 h5 {
   text-align: center;
@@ -349,10 +351,14 @@ figcaption {
   margin: 0 auto;
   display: block;
   width: 300px;
-  height: 290px;
+  height: auto;
   left: 20px;
   top: 250px;
   background: #F0B27A;
-  text-align: center;
   font-size: 17px;
+}
+
+.projet {
+  padding: 12px 17px;
+
 }
