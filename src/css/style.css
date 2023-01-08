@@ -93,7 +93,7 @@ a{
   font-weight: bold;
 }
 .flechecourbe {
-  width: 8vw;
+  width: 10vw;
   display: block;
   float: right;
   transform: scaleX(-1);
